@@ -1,14 +1,16 @@
 import React from 'react'
 import "./hero.css"
-import {Nav} from "../components/Nav"
 
 
 export const Hero = () => {
-  return (
-    <div className='hero'>
-        <Nav />
+    return (
+        <div className='hero'>
+            <div className='hero-text'>
+                <h2>Empowering <br/>Digital Resilience:<br />
+                    Cyber Saviours <br/>at Your Service</h2>
+                <div className='head-img'></div>
 
-        this is hero section
-    </div>
-  )
+            </div>
+        </div>
+    )
 }

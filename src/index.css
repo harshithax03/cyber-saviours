@@ -11,3 +11,8 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
+body{
+  background-color: rgb(8, 8, 8);
+  color: white;
+
+}

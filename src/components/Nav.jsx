@@ -4,14 +4,9 @@ import "../components/component.css"
 export const Nav = () => {
   return (
     <div className='nav'>
-        <div className='nav-logo'>
-            <p>Cyber Saviours</p>
-        </div>
-        <div className='nav-links'>
             <p>Services</p>
-            <p>About Us</p>
+            <h3>Cyber Saviours</h3>
             <p>Contact</p>
         </div>
-    </div>
   )
 }

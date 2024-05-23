@@ -10,7 +10,7 @@
 }
 .hero-text p{
    padding: 2rem 0rem;
-   z-index: 100;
+   /* z-index: 100; */
    font-family: "syne", sans-serif;
   font-size: 4rem;
   text-align: center;

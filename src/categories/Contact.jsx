@@ -5,8 +5,8 @@ export const Contact = () => {
   return (
     <div className='container'>
         <div className='contact-container'>
-            <p>Contact : &nbsp;<span>987654321</span></p>
-            <p>Email :&nbsp;<span>info@gmail.com</span></p>
+            <p>Contact : &nbsp;<span>7995474572</span></p>
+            <p>Email :&nbsp;<span>info@cybersaviours.com</span></p>
 
         </div>
         

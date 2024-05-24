@@ -15,4 +15,20 @@ body{
   background-color: #0e0e0e;
   color: white;
 }
+::-webkit-scrollbar {
+  width: 0.4rem;
+}
+
+::-webkit-scrollbar-track {
+  background: #0e0e0e;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #654646;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #654646;
+}
+
 

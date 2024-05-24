@@ -29,16 +29,19 @@ export const Hero = () => {
         <div className='hero'>
             <div className='doodle d1'></div>
 
-            <div className='hero-text'>
-            <p>
-            Securing Tomorrow, Today<br/> 
-            Your Trusted <span ref={typewriterRef} className='typewriter'></span>
-            </p>
-            <button>Learn More <ArrowRight size={34}/></button>
-              </div>
+            <div className='hero-container'>
+                <div className='hero-logo'></div>
+                <div className='hero-description'>
+                    <p>
+                        Securing Tomorrow, Today<br />
+                        Your Trusted <span ref={typewriterRef} className='typewriter'></span>
+                    </p>
+                    <button>Learn More <ArrowRight size={34} /></button>
+                </div>
+            </div>
+
             <div className='doodle d2'></div>
-            {/* <div className='blob blob1'></div>
-            <div className='blob blob2'></div> */}
+
 
         </div>
     )

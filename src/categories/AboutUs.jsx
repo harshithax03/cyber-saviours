@@ -3,7 +3,7 @@ import "./aboutUs.css"
 
 export const AboutUs = () => {
   return (
-    <div className='container'>
+    // <div className='container'>
         <div className='about-container'>
         {/* <h2>
           Contact Us.&nbsp;
@@ -23,6 +23,6 @@ export const AboutUs = () => {
         </div>
       
         </div>
-    </div>
+    // </div>
   )
 }

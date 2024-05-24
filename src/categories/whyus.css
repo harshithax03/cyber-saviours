@@ -61,7 +61,7 @@
     animation: rotate 5s linear infinite;
     filter: blur(10px) brightness(100%);
     background: linear-gradient(135deg, #5cbf6b6c, #54915d5e, #94aad8);
-    top: 0rem;
+    top: 5rem;
     right: 0rem;
     z-index: -1;
   }
@@ -73,7 +73,7 @@
     animation: rotate 5s linear infinite;
     filter: blur(10px) brightness(100%);
     background: linear-gradient(135deg, #5cbf6b6c, #54915d5e, #94aad8);
-    bottom: 0rem;
+    bottom: 5rem;
     left: 0rem;
     z-index: -1;
   }

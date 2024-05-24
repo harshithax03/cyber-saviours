@@ -4,6 +4,7 @@ import {OurServices} from '../categories/OurServices'
 import {Whyus} from '../categories/Whyus'
 import "../index.css"
 import { MarqueeFeature } from '../components/MarqueeFeature'
+import { AboutUs } from '../categories/AboutUs'
 
 export const HomePage = () => {
   return (
@@ -12,6 +13,7 @@ export const HomePage = () => {
     <MarqueeFeature />
     <Whyus/>
     <OurServices/>
+    <AboutUs />
 
     </>
   )

@@ -1,0 +1,122 @@
+.about-container{
+    position: relative;
+    
+}
+
+.about-img{
+    background-image: url("../assets/images/logo.png");
+    width: 30rem;
+    height: 30rem;
+    background-position: center;
+    background-size: contain;
+    transform: translatey(0px);
+    scale: 1.3;
+  animation: float 6s ease-in-out infinite;
+  background-repeat: no-repeat;
+}
+.about-container .about {
+    display: flex;
+    align-items: start;
+    gap: 5rem;
+   
+}
+
+
+.about-blob{
+    width: 10rem;
+    height: 10rem;
+    position: absolute;
+    border-radius: 62% 47% 82% 35% / 45% 45% 80% 66%;
+    animation: rotate 5s linear infinite;
+    filter: blur(10px) brightness(69%);
+    background: linear-gradient(135deg, #ab8d42ee, #7b562b, #adc175);
+    top: 0rem;
+    right: 1rem;
+    z-index: -1;
+  }
+.about-blob1{
+    width: 6rem;
+    height: 6rem;
+    position: absolute;
+    border-radius: 62% 47% 82% 35% / 45% 45% 80% 66%;
+    animation: rotate 5s linear infinite;
+    filter: blur(10px) brightness(69%);
+    background: linear-gradient(135deg, #ab8d42ee, #7b562b, #adc175);
+    bottom: 0rem;
+    left: 1rem;
+    z-index: -1;
+  }
+
+  .about-card{
+    position: relative;
+    width: 35rem;
+    height: 25rem;
+    padding: 1rem;
+    background-color: rgba(146, 146, 144, 0.092);
+    border: 1px solid rgba(81, 80, 80, 0.69);
+    -webkit-backdrop-filter: blur(200px);
+    backdrop-filter: blur(7px);
+    border-radius: 1rem;
+    transition: all ease 0.3s;
+    font-family: "Poppins";
+  }
+  .about-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem 2.4rem;
+  }
+  .about-card h3{
+    font-size: 2.5rem;
+    color: #927952;
+    transition: all 0.5s ease;
+  }
+  .about-card p{
+    font-size: 1.1rem;
+    color: rgba(203, 207, 210, 0.675);
+    font-weight: 400;
+    letter-spacing: 0.01rem;
+    padding-bottom: 0.8rem;
+  }
+
+
+
+
+  @keyframes rotate {
+    0%,100%{
+    border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%;
+      transform: translate3d(0px,0px,0) rotateZ(0.01deg);
+    }
+    34%{
+        border-radius: 70% 30% 46% 54% / 30% 29% 71% 70%;
+      transform:  translate3d(0px,10px,0px) rotateZ(0.01deg);
+    }
+    50%{
+      transform: translate3d(50px,20,0) rotateZ(0.05deg);
+    }
+    67%{
+      border-radius: 100% 60% 60% 100% / 100% 100% 60% 60% ;
+      transform: translate3d(-10px,10px,0) rotateZ(0.01deg);
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+@keyframes float {
+    0% {
+      transform: translatey(0px);
+    }
+    50% {
+      transform: translatey(-30px);
+    }
+    100% {
+      transform: translatey(0px);
+    }
+  }

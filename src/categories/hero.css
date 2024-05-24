@@ -10,13 +10,18 @@
 }
 .hero-container{
   display: flex;
+  gap: 3rem;
 }
 .hero-logo{
   background-image: url("../assets/images/logo.png");
-  height: 25rem;
-  width: 25rem;
+  height: 20rem;
+  width: 20rem;
+  scale: 1.5;
   background-position: center;
   background-size: contain;
+  transform: translatey(0px);
+  animation: float 6s ease-in-out infinite;
+  background-repeat: no-repeat;
 }
 .hero-description p{
    padding: 2rem 0rem;
@@ -28,6 +33,8 @@
   font-weight: bold;
   position: relative;
   color: rgb(252, 249, 231);
+  width: 50rem;
+  height: 15rem;
 
   
 }
@@ -35,6 +42,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 4rem;
 }
  .hero-description button{
   all: unset;

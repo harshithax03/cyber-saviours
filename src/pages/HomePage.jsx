@@ -10,12 +10,11 @@ import { Contact } from '../categories/Contact'
 export const HomePage = () => {
   return (
     <>
-    {/* <Hero/> */}
-    <AboutUs />
-
+    <Hero/>
     <MarqueeFeature />
     <Whyus/>
     <OurServices/>
+    <AboutUs />
     <Contact />
 
     </>

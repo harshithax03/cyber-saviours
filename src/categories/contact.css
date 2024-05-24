@@ -1,0 +1,18 @@
+.contact-container{
+    border: 1px solid white;
+    padding: 2rem 4rem;
+    display: flex;
+    justify-content: space-around;
+    font-family: "Poppins";
+    background-color: rgba(146, 146, 144, 0.092);
+    border: 1px solid rgba(81, 80, 80, 0.69);
+    -webkit-backdrop-filter: blur(200px);
+    backdrop-filter: blur(7px);
+    border-radius: 1rem;
+}
+.contact-container p{
+    font-size: 1.3rem;
+}
+.contact-container p span{
+    color: rgb(135, 131, 131);    
+}

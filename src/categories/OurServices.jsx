@@ -1,7 +1,6 @@
 import React from 'react'
 import "./ourServices.css"
 import { services } from '../AllData'
-import { ArrowRight } from '@phosphor-icons/react'
 
 export const OurServices = () => {
   return (

@@ -1,9 +1,8 @@
-.container{
-    padding: 7rem 7rem ; 
-    height: 100vh;
-    position: relative;
 
-   
+.service-container{
+  padding-bottom: 5rem;
+  position: relative;
+  /* margin-top: 5rem; */
 }
 
 .service-container h2{
@@ -17,29 +16,29 @@
     color: rgba(205, 207, 191, 0.355);
 
 }
-.service-container{
-    padding-bottom: 5rem;
-}
+
 .blob{
     width: 20rem;
     height: 20rem;
     position: absolute;
-    opacity: 0.4;
+    opacity: 0.8;
     border-radius: 62% 47% 82% 35% / 45% 45% 80% 66%;
     animation: sliderShape1 5s linear infinite;
-    filter: blur(40px) brightness(130%);
+    filter: blur(40px) brightness(50%);
     background: linear-gradient(135deg, #BF5C63, #9F5C3F, #7A6D4D);
     top: 29rem;
     right: 25rem;
+    z-index: -1;
+
   }
 .blob1{
     width: 20rem;
     height: 20rem;
     position: absolute;
-    opacity: 0.4;
+    z-index: -1;
     border-radius: 62% 47% 82% 35% / 45% 45% 80% 66%;
     animation: sliderShape 5s linear infinite;
-    filter: blur(40px) brightness(130%);
+    filter: blur(40px) brightness(50%);
     background: linear-gradient(135deg, #BF5C63, #9F5C3F, #7A6D4D);
     top: 15rem;
     left: 25rem;

@@ -30,7 +30,6 @@ export const Hero = () => {
             <div className='doodle d1'></div>
 
             <div className='hero-container'>
-                <div className='hero-logo'></div>
                 <div className='hero-description'>
                     <p>
                         Securing Tomorrow, Today<br />
@@ -38,6 +37,8 @@ export const Hero = () => {
                     </p>
                     <button>Learn More <ArrowRight size={34} /></button>
                 </div>
+                <div className='hero-logo'></div>
+
             </div>
 
             <div className='doodle d2'></div>

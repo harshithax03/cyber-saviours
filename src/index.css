@@ -30,5 +30,8 @@ body{
 ::-webkit-scrollbar-thumb:hover {
   background: #654646;
 }
+.link{
+  all: unset;
+}
 
 

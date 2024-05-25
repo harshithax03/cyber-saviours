@@ -2,14 +2,26 @@ export const services = [
   {
     id: 1,
     head: `Penetration Testing Services`,
-    description: `Proactive testing to uncover vulnerabilities in 
-           systems, ensuring robust defense against potential cyber threats.`,
+    description: [
+      `Network Pentesting`,
+      `Website Pentesting`,
+      `Wireless Pentesting`,
+      `Server Pentesting`,
+      `Android Apps`,
+      `API Pentesting `,
+    ],
   },
   {
     id: 2,
     head: `Configuration Services`,
-    description: ` Centralized system for real-time security event analysis, 
-           enabling swift threat detection and response to security incidents.`,
+    description: [
+      `Intrusion Detection System`,
+      `Intrusion Prevention System`,
+      `SIEM`,
+      `Firewall Configuration`,
+      `DDOS Protection System`,
+      `Phishing Detection System`,
+    ],
   },
   {
     id: 3,
@@ -34,9 +46,14 @@ export const services = [
   {
     id: 6,
     head: `Digital Forensics`,
-    description: `We investigate cyber incidents by analyzing
-     digital evidence, helping you understand
-     and mitigate breaches.`,
+    description: [
+      `Data Recovery`,
+      `Mobile Forensics`,
+      `Laptop Forensics`,
+      `Network Forensics`,
+      `Deep Fake Investigation`,
+      `Social Media Forensics`,
+    ],
   },
 ];
 

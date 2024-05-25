@@ -17,8 +17,8 @@
 }
 
 .blob{
-    width: 15rem;
-    height: 15rem;
+    width: 25rem;
+    height: 25rem;
     position: absolute;
     opacity: 1;
     border-radius: 62% 47% 82% 35% / 45% 45% 80% 66%;
@@ -28,7 +28,6 @@
     top: 29rem;
     right: 25rem;
     z-index: -1;
-
   }
 .blob1{
     width: 20rem;
@@ -53,7 +52,7 @@
   }
   .card-container .card {
     width: 25rem;
-    height: 20rem;
+    height: 25rem;
     padding: 1rem;
     background-color: rgba(146, 146, 144, 0.092);
     border: 1px solid rgba(81, 80, 80, 0.69);
@@ -79,12 +78,19 @@
     transition: all 0.5s ease;
   }
  
-  .card-description p{
+  .card-description #description-array{
     font-size: 1rem;
     color: rgb(253, 253, 247);
     font-weight: 200;
     letter-spacing: 0.01rem;
     padding-bottom: 0.8rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+  #description-array p{
+    display: flex;
+    align-items: center;
   }
   .learn-more{
     padding-bottom: 0.3rem;

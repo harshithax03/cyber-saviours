@@ -1,6 +1,7 @@
 import "../components/component.css"
 import React, { useState, useEffect } from 'react';
 import { Link } from "react-router-dom";
+import { Link as ScrollLink } from "react-scroll";
 
 export const Nav = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -22,9 +23,24 @@ export const Nav = () => {
   }, []);
   return (
     <div className={scrolled ? 'nav-scrolled' : 'nav'}>
-      <Link to = "/services" className="link" ><p>Services</p></Link>
+       <ScrollLink
+        to="services"  // The ID of the element you want to scroll to
+        smooth={true}
+        duration={100}
+        className="link"
+      >
+        <p>Services</p>
+      </ScrollLink>
             <h3>Cyber Saviours</h3>
-            <p>Contact</p>
+
+           <ScrollLink
+        to="contact"  // The ID of the element you want to scroll to
+        smooth={true}
+        duration={100}
+        className="link"
+      >
+        <p>Contact</p>
+      </ScrollLink>
         </div>
   )
 }

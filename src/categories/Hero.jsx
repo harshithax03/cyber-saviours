@@ -3,6 +3,7 @@ import { useEffect, useRef } from 'react';
 import "./hero.css"
 import { ArrowRight } from '@phosphor-icons/react/dist/ssr'
 import Typewriter from 'typewriter-effect/dist/core';
+import { Link as ScrollLink } from "react-scroll";
 
 export const Hero = () => {
     const typewriterRef = useRef(null);
@@ -35,7 +36,15 @@ export const Hero = () => {
                         Securing Tomorrow, Today<br />
                         Your Trusted <span ref={typewriterRef} className='typewriter'></span>
                     </p>
-                    <button>Learn More <ArrowRight size={34} /></button>
+                    <ScrollLink
+                        to="services"  // The ID of the element you want to scroll to
+                        smooth={true}
+                        duration={100}
+                        className="link"
+                    >
+                     <button>Learn More <ArrowRight size={34} /></button>
+
+                    </ScrollLink>
                 </div>
                 <div className='hero-logo'></div>
 

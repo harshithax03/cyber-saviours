@@ -5,7 +5,7 @@ import { CaretRight } from '@phosphor-icons/react'
 
 export const OurServices = () => {
   return (
-    <div className='container'>
+    <div className='container' id='services'>
       <div className='service-container'>
         <h2>
           Our Services.&nbsp;<span>Excellence in Every Step</span>

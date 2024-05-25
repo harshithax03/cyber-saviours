@@ -91,6 +91,7 @@
   #description-array p{
     display: flex;
     align-items: center;
+    gap: 0.3rem;
   }
   .learn-more{
     padding-bottom: 0.3rem;

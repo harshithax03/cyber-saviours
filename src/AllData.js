@@ -26,22 +26,38 @@ export const services = [
   {
     id: 3,
     head: `SOC Analysis Services`,
-    description: `Continuous monitoring and analysis of security events to detect and mitigate potential threats, 
-           ensuring organizational resilience against cyber attacks.`,
+    description: [
+      `Real-time Monitoring`,
+      `Incident Response`,
+      `Threat Intelligence Integration`,
+      `Advanced Analytics`,
+      `Compliance Reporting`,
+      `24/7 Security Operation`,
+    ],
   },
   {
     id: 4,
     head: `Secure Code Review Services`,
-    description: `We analyze your code to identify and fix
-     security vulnerabilities, ensuring robust
-     protection against cyber threats.`,
+    description: [
+      `Automated Code Analysis`,
+      `Manual Code Inspection`,
+      `Vulnerability Identification`,
+      `Security Best Practices`,
+      `Remediation Guidance`,
+      `Compliance Verification`,
+    ],
   },
   {
     id: 5,
     head: `Social Engineering Campaigns`,
-    description: `We simulate social engineering attacks 
-    to test and improve your team's ability to recognize 
-    and counteract deceptive tactics.`,
+    description: [
+      `Phishing Simulations`,
+      `Impersonation Tests`,
+      `Physical Security Assessments`,
+      `Security Awareness Training`,
+      `Email Security Tests`,
+      `Pretexting Attacks`,
+    ],
   },
   {
     id: 6,

@@ -16,7 +16,6 @@ export const OurServices = () => {
               <h3>{card.head}</h3>
               <div className='card-description'>
                 <div id='description-array'>
-                  {Array.isArray(card.description) ? (
                     <div id='description-array'>
                       {card.description.map((desc, index) => (
                         <p key={index}>
@@ -25,11 +24,7 @@ export const OurServices = () => {
                         </p>
                       ))}
                     </div>
-                  ) : (
-                    <p>
-                      {card.description}
-                    </p>
-                  )}
+                 
 
                 </div>
                 {/* <div className='learn-more'>Learn More</div> */}

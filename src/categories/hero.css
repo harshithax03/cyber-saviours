@@ -1,17 +1,21 @@
 
 .hero{
     height: 100vh;
-    padding: 12rem 7rem;
-    background-image: url("../assets/images/10.png");
+    padding: 14rem 7rem;
+    /* background-image: url("../assets/images/10.png"); */
+ 
     background-position: center;
     background-size: cover;
-  
-  
+    background-repeat: no-repeat;
+   
+    z-index: 100;  
 }
 .hero-container{
   display: flex;
-  gap: 3rem;
+  gap: 6rem;
+
 }
+
 .hero-logo{
   background-image: url("../assets/images/logo.png");
   height: 20rem;
@@ -24,25 +28,24 @@
   background-repeat: no-repeat;
 }
 .hero-description p{
-   padding: 2rem 0rem;
-   /* z-index: 100; */
-   font-family: "syne", sans-serif;
-  font-size: 3.2rem;
-  text-align: center;
+   font-family: "poppins", sans-serif;
+  font-size: 3.5rem;
+  text-align: left;
   line-height: 150%;
   font-weight: bold;
   position: relative;
   color: rgb(252, 249, 231);
   width: 50rem;
   height: 15rem;
+  z-index: 100;
 
   
 }
 .hero-description{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 4rem;
+  align-items: left;
+  gap: 2rem;
 }
  .hero-description button{
   all: unset;
@@ -62,50 +65,29 @@
  }
 
 
-.doodle{
-  width: 70px;
-  height: 90px;
-  scale: 0.5;
-  background-position: center;
-  background-size: cover;
-  position: absolute;
-}
-.d1{
-  background-image: url("../assets/images/doodle3.png");
-  right: 8rem;
-  top: 10rem;
-  /* animation: sliderShape 3s linear infinite; */
 
-}
-.d2{
-  background-image: url("../assets/images/doodle3.png");
-  /* animation: sliderShape 3s linear infinite; */
 
-}
 
-.blob1{
-  background: #A8321E;
-  background: linear-gradient(180deg, #e75e45, #dcac5f);
-  top: 10rem;
-  right: 15rem;
-}
-.blob2{
-  background: #A8321E;
-  background: linear-gradient(180deg, #e75e45, #dcac5f);
-  top: 10rem;
-  left: 10rem;
-}
-.blob{
-  width: 35rem;
-  height: 25rem;
-  position: absolute;
-  opacity: 0.4;
-  border-radius: 62% 47% 82% 35% / 45% 45% 80% 66%;
-  animation: sliderShape 5s linear infinite;
-  filter: blur(10px) brightness(60%);
-}
 .typewriter{
-  color: rgb(160, 157, 102);
+  color: rgb(76, 99, 75);
+}
+
+.blob-effect{
+  width: 20rem;
+  height: 20rem;
+  position: absolute;
+  z-index: -1;
+  border-radius:500px;
+  filter: blur(80px) brightness(90%);
+  background-color: rgb(69, 120, 73);
+}
+.b-two{
+  top: 0rem;
+  right: -0rem;
+}
+.b-one{
+  bottom: 0rem;
+  left: -5rem;
 }
 
 

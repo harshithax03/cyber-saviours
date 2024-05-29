@@ -28,16 +28,15 @@ export const Hero = () => {
     }, []);
     return (
         <div className='hero'>
-            <div className='doodle d1'></div>
-
             <div className='hero-container'>
                 <div className='hero-description'>
+                    <div className='gradient-background'></div>
                     <p>
                         Securing Tomorrow, Today<br />
                         Your Trusted <span ref={typewriterRef} className='typewriter'></span>
                     </p>
                     <ScrollLink
-                        to="services"  // The ID of the element you want to scroll to
+                        to="services" 
                         smooth={true}
                         duration={100}
                         className="link"
@@ -47,12 +46,10 @@ export const Hero = () => {
                     </ScrollLink>
                 </div>
                 <div className='hero-logo'></div>
-
             </div>
-
-            <div className='doodle d2'></div>
-
-
+            <div className='blob-effect b-one'></div>
+            <div className='blob-effect b-two '></div>
+           
         </div>
     )
 }

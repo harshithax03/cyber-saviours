@@ -1,12 +1,13 @@
 
 .hero{
     height: 120vh;
+    /* width: 90rem; */
     padding: 14rem 7rem; 
     background-image: url("../assets/images/4.png");
-    position: relative;
+    /* position: relative; */
     background-position: center;
     background-size: cover;
-    z-index: 1;
+    /* z-index: 1; */
 }
 .hero-description{
   display: flex;
@@ -102,7 +103,24 @@
 
 
 
+@media only screen and (max-width: 600px) {
+  .hero{
+    width: 90rem;
+    height: 100vh;
+    position: unset;
+    padding: 22rem 7rem;
+  }
+  .hero-description h1{
+    font-size: 44px;
+  }
+} 
+  
+
+
+
  
+
+@media all and (min-width: 480px) and (max-width: 768px) { }
 
 
 

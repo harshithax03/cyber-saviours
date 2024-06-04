@@ -7,7 +7,8 @@
     /* position: relative; */
     background-position: center;
     background-size: cover;
-    /* z-index: 1; */
+    z-index: 1;
+
 }
 .hero-description{
   display: flex;

@@ -1,7 +1,6 @@
 import "../components/component.css"
 import React, { useState, useEffect } from 'react';
 import { Link as ScrollLink } from "react-scroll";
-import { Minus } from "@phosphor-icons/react";
 export const Nav = () => {
   const [scrolled, setScrolled] = useState(false);
 

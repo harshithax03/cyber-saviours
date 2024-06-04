@@ -49,14 +49,13 @@
   gap: 0.9rem;
 }
 .hero-description p{
-   font-family: "dmsans", sans-serif;
+   font-family: "dm sans", sans-serif;
   font-size: 1rem;
   font-weight: 500;
-  color: #808080;
+  color: #494848;
   text-align: center;
   line-height: 130%;
-
- 
+  font-weight: 500;
 }
 
  .hero-description button{
@@ -77,26 +76,6 @@
   border-left: 1px solid rgb(31, 31, 31);
   border-top: 1px solid rgb(42, 42, 42);
  }
-
-
-
-
-
-.typewriter{
-  color: #1f3527;
-}
-
-.cursor-background{
-  position: absolute;
-  z-index: 1;
-  top: 1rem;
-  left: 0rem;
-  /* border-radius: 500px; */
-  filter: blur(0px);
-  
- 
-}
-
 
 .circle {
   width: 8px;

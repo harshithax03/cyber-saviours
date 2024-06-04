@@ -1,9 +1,12 @@
 import React from 'react'
 import { useEffect, useRef } from 'react';
 import "./hero.css"
+import Spline from '@splinetool/react-spline';
 import { ArrowRight } from '@phosphor-icons/react/dist/ssr'
 import Typewriter from 'typewriter-effect/dist/core';
 import { Link as ScrollLink } from "react-scroll";
+// import { SimpleSpline } from '../categories/SimpleSpline'
+
 
 export const Hero = () => {
     const typewriterRef = useRef(null);
@@ -27,32 +30,40 @@ export const Hero = () => {
         }
     }, []);
     return (
-        <div className='hero'>
-            <div className='doodle d1'></div>
 
+        <div className='hero'>
+
+
+            <div className='cursor-background'></div>
             <div className='hero-container'>
                 <div className='hero-description'>
+                    <h6>
+                    <div className='circle pulse green'></div>
+                     Available for work
+                    </h6>
+                    <h1>
+                    We Are the Shield for Your Digital Assets
+                    </h1>
                     <p>
-                        Securing Tomorrow, Today<br />
-                        Your Trusted <span ref={typewriterRef} className='typewriter'></span>
+                    Need a security audit, real-time threat analysis,
+                     or a comprehensive security plan?<br/> We design and
+                      implement your cybersecurity solutions from start to finish.
                     </p>
+                    <button>Get in touch</button>
                     <ScrollLink
-                        to="services"  // The ID of the element you want to scroll to
+                        to="services"
                         smooth={true}
                         duration={100}
                         className="link"
                     >
-                     <button>Learn More <ArrowRight size={34} /></button>
 
                     </ScrollLink>
                 </div>
-                <div className='hero-logo'></div>
 
             </div>
 
-            <div className='doodle d2'></div>
-
 
         </div>
+
     )
 }

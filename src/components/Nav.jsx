@@ -1,8 +1,7 @@
 import "../components/component.css"
 import React, { useState, useEffect } from 'react';
-import { Link } from "react-router-dom";
 import { Link as ScrollLink } from "react-scroll";
-
+import { Minus } from "@phosphor-icons/react";
 export const Nav = () => {
   const [scrolled, setScrolled] = useState(false);
 
@@ -23,24 +22,17 @@ export const Nav = () => {
   }, []);
   return (
     <div className={scrolled ? 'nav-scrolled' : 'nav'}>
-       <ScrollLink
-        to="services"  // The ID of the element you want to scroll to
-        smooth={true}
-        duration={100}
-        className="link"
-      >
-        <p>Services</p>
-      </ScrollLink>
-            <h3>Cyber Saviours</h3>
-
-           <ScrollLink
-        to="contact"  // The ID of the element you want to scroll to
-        smooth={true}
-        duration={100}
-        className="link"
-      >
-        <p>Contact</p>
-      </ScrollLink>
-        </div>
+     
+      <div className="nav-company">
+      <h3>Cyber Saviours</h3>
+      <h5>Cyber services based in <br/>
+          Hyderabad,India</h5>
+      </div>
+      <div className="nav-links">
+      <ScrollLink><p>Services</p></ScrollLink>
+      <ScrollLink > <p id="contact">Get in touch</p></ScrollLink>
+      </div>
+    
+    </div>
   )
 }

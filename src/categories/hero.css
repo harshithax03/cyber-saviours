@@ -1,111 +1,124 @@
 
 .hero{
-    height: 100vh;
-    padding: 12rem 7rem;
-    background-image: url("../assets/images/10.png");
+    height: 120vh;
+    padding: 14rem 7rem; 
+    background-image: url("../assets/images/4.png");
+    position: relative;
     background-position: center;
     background-size: cover;
-  
-  
-}
-.hero-container{
-  display: flex;
-  gap: 3rem;
-}
-.hero-logo{
-  background-image: url("../assets/images/logo.png");
-  height: 20rem;
-  width: 20rem;
-  scale: 1.5;
-  background-position: center;
-  background-size: contain;
-  transform: translatey(0px);
-  animation: float 6s ease-in-out infinite;
-  background-repeat: no-repeat;
-}
-.hero-description p{
-   padding: 2rem 0rem;
-   /* z-index: 100; */
-   font-family: "syne", sans-serif;
-  font-size: 3.2rem;
-  text-align: center;
-  line-height: 150%;
-  font-weight: bold;
-  position: relative;
-  color: rgb(252, 249, 231);
-  width: 50rem;
-  height: 15rem;
-
-  
+    z-index: 1;
 }
 .hero-description{
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  gap: 4rem;
+  gap: 1rem;
+  padding: 0rem 6rem;
+
+ 
 }
+.grid-mask{
+  height: 100vh;
+  width: 100%;
+  background-color: #0e0e0e; 
+  mask-image: radial-gradient(ellipse at top, transparent -400%, black);
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+  z-index: -1;
+}
+
+
+.hero-description h1{
+   font-family: "poppins", sans-serif;
+  font-size: 72px;
+  text-align: center;
+  line-height: 150%;
+  font-weight: 600;
+  color: #CCCCCC;
+  z-index: 100;
+}
+.hero-description h6{
+   font-family: "dmsans", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #808080;
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+}
+.hero-description p{
+   font-family: "dmsans", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #808080;
+  text-align: center;
+  line-height: 130%;
+
+ 
+}
+
  .hero-description button{
   all: unset;
   font-size: 1.2rem;
   font-family: "Poppins";
   font-weight: 500;
-  background-color: #dcdcdc;
-  width: 10rem;
+  background-color: #090909;
   color: #0e0e0e;
+  margin-top: 1rem;
   padding: 0.4rem 1rem;
   border-radius: 50px;
   text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   cursor: pointer;
+  color: rgb(52, 83, 60);
+  backdrop-filter: blur(30px) saturate(100%);
+  box-shadow: 2px 2px 4px rgb(54, 80, 54);
+  border-left: 1px solid rgb(31, 31, 31);
+  border-top: 1px solid rgb(42, 42, 42);
  }
 
 
-.doodle{
-  width: 70px;
-  height: 90px;
-  scale: 0.5;
-  background-position: center;
-  background-size: cover;
-  position: absolute;
-}
-.d1{
-  background-image: url("../assets/images/doodle3.png");
-  right: 8rem;
-  top: 10rem;
-  /* animation: sliderShape 3s linear infinite; */
 
-}
-.d2{
-  background-image: url("../assets/images/doodle3.png");
-  /* animation: sliderShape 3s linear infinite; */
 
-}
 
-.blob1{
-  background: #A8321E;
-  background: linear-gradient(180deg, #e75e45, #dcac5f);
-  top: 10rem;
-  right: 15rem;
-}
-.blob2{
-  background: #A8321E;
-  background: linear-gradient(180deg, #e75e45, #dcac5f);
-  top: 10rem;
-  left: 10rem;
-}
-.blob{
-  width: 35rem;
-  height: 25rem;
-  position: absolute;
-  opacity: 0.4;
-  border-radius: 62% 47% 82% 35% / 45% 45% 80% 66%;
-  animation: sliderShape 5s linear infinite;
-  filter: blur(10px) brightness(60%);
-}
 .typewriter{
-  color: rgb(160, 157, 102);
+  color: #1f3527;
+}
+
+.cursor-background{
+  position: absolute;
+  z-index: 1;
+  top: 1rem;
+  left: 0rem;
+  /* border-radius: 500px; */
+  filter: blur(0px);
+  
+ 
+}
+
+
+.circle {
+  width: 8px;
+  height: 8px;
+  border-radius: 500px;
+  box-shadow: 0px 0px 1px 1px #0000001a;
+  /* background-color: #1f3527; */
+}
+.green{
+  background: #66FF99;
+}
+.pulse {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0px rgb(71, 152, 110);
+  }
+  100% {
+    box-shadow: 0 0 0 10px rgba(182, 124, 124, 0);
+  }
 }
 
 

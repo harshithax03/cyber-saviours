@@ -128,5 +128,33 @@ backdrop-filter: blur(36px);
 .address h1{
   font-family: "Oswald";
 }
-.copyrights{
-}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+  .nav-links{
+   gap: 0.4rem;
+  }
+  .nav{
+    justify-content: space-between;
+    padding: 2rem;
+  }
+  .hero-description p{
+    display: none;
+  }
+  .nav h5, .nav-scrolled h5{
+    display: none;
+  }
+  .nav h3, .nav-scrolled h3{
+    font-size: 0.8rem;
+  }
+  
+  .nav p, .nav-scrolled p{
+    font-size: 0.7rem;
+  }
+} 
+  
+
+

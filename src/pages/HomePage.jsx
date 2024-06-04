@@ -6,6 +6,7 @@ import "../index.css"
 import { MarqueeFeature } from '../components/MarqueeFeature'
 import { AboutUs } from '../categories/AboutUs'
 import { Contact } from '../categories/Contact'
+import { SimpleSpline } from '../categories/SimpleSpline'
 
 export const HomePage = () => {
   return (
@@ -16,6 +17,7 @@ export const HomePage = () => {
     <OurServices/>
     <AboutUs />
     <Contact />
+
 
     </>
   )

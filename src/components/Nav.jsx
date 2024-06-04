@@ -1,7 +1,7 @@
 import "../components/component.css"
 import React, { useState, useEffect } from 'react';
 import { Link as ScrollLink } from "react-scroll";
-
+import { Minus } from "@phosphor-icons/react";
 export const Nav = () => {
   const [scrolled, setScrolled] = useState(false);
 
@@ -22,10 +22,15 @@ export const Nav = () => {
   }, []);
   return (
     <div className={scrolled ? 'nav-scrolled' : 'nav'}>
+     
+      <div className="nav-company">
       <h3>Cyber Saviours</h3>
+      <h5>Cyber services based in <br/>
+          Hyderabad,India</h5>
+      </div>
       <div className="nav-links">
       <ScrollLink><p>Services</p></ScrollLink>
-      <ScrollLink > <p>Contact</p></ScrollLink>
+      <ScrollLink > <p id="contact">Get in touch</p></ScrollLink>
       </div>
     
     </div>

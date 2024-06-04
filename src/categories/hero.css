@@ -34,7 +34,7 @@
 
 .hero-description h1{
    font-family: "poppins", sans-serif;
-  font-size: 72px;
+  /* font-size: 72px; */
   text-align: center;
   line-height: 150%;
   font-weight: 600;
@@ -74,7 +74,7 @@
   cursor: pointer;
   color: rgb(52, 83, 60);
   backdrop-filter: blur(30px) saturate(100%);
-  box-shadow: 2px 2px 4px rgb(54, 80, 54);
+  box-shadow: 2px 2px 1px rgb(54, 80, 54);
   border-left: 1px solid rgb(31, 31, 31);
   border-top: 1px solid rgb(42, 42, 42);
  }
@@ -112,7 +112,7 @@
     padding: 22rem 7rem;
   }
   .hero-description h1{
-    font-size: 44px;
+    font-size: 3px;
   }
 } 
   
@@ -120,13 +120,18 @@
 
 @media only screen and (max-width: 600px) {
   .hero{
-    width: 90rem;
+    width: auto;
     height: 100vh;
-    position: unset;
-    padding: 22rem 7rem;
+    padding: 18rem 1rem;
+    background-image: url("../assets/images/5.png");
+    background-position: center;
+    background-size: cover;
   }
   .hero-description h1{
-    font-size: 44px;
+    font-size: 34px;
+  }
+  .hero-description p{
+    display: none;
   }
 } 
   

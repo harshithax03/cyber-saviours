@@ -12,11 +12,11 @@ export const HomePage = () => {
   return (
     <>
     <Hero/>
-    <MarqueeFeature />
+    {/* <MarqueeFeature />
     <Whyus/>
     <OurServices/>
     <AboutUs />
-    <Contact />
+    <Contact /> */}
 
 
     </>

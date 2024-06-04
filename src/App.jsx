@@ -13,14 +13,14 @@ function App() {
   return (
     <>
     <Router>
-      <Nav/>
+      {/* <Nav/> */}
       <Routes>
         <Route path="/" element={<HomePage />}/>      
         <Route path="/services" element={<OurServices />}/>      
         <Route path="/contact" element={<Contact />}/>      
       </Routes>
 
-    <Footer />
+    {/* <Footer /> */}
     </Router>
     </>
   )

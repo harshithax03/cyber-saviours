@@ -12,9 +12,9 @@ export const HomePage = () => {
   return (
     <>
     <Hero/>
-    {/* <MarqueeFeature />
+    <MarqueeFeature />
     <Whyus/>
-    <OurServices/>
+    {/* <OurServices/>
     <AboutUs />
     <Contact /> */}
 

@@ -130,3 +130,23 @@ animation: pulse 2s infinite;
 
 
 
+@media only screen and (max-width: 600px) {
+  .hero{
+    width: auto;
+    height: 100vh;
+    padding: 18rem 1rem;
+    background-image: url("../assets/images/5.png");
+    background-position: center;
+    background-size: cover;
+  }
+  .hero-description h1{
+    font-size: 30px;
+  }
+  .hero-description p{
+    display: none;
+  }
+  .hero-description{
+    padding: 4rem 2rem;
+  }
+} 
+  

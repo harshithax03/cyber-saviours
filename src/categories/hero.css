@@ -64,39 +64,21 @@ line-height: 130%;
 all: unset;
 font-size: 1.2rem;
 font-family: "Poppins";
-font-weight: 500;
-background-color: #090909;
-color: #0e0e0e;
+font-weight: 300;
 margin-top: 1rem;
 padding: 0.4rem 1rem;
 border-radius: 50px;
 text-align: center;
 cursor: pointer;
-color: rgb(52, 83, 60);
-backdrop-filter: blur(30px) saturate(100%);
-box-shadow: 2px 2px 4px rgb(54, 80, 54);
-border-left: 1px solid rgb(31, 31, 31);
-border-top: 1px solid rgb(42, 42, 42);
+color: #81f4c3;
+box-shadow: 2px 2px 1px rgb(54, 80, 54);
 }
 
 
 
 
 
-.typewriter{
-color: #1f3527;
-}
 
-.cursor-background{
-position: absolute;
-z-index: 1;
-top: 1rem;
-left: 0rem;
-/* border-radius: 500px; */
-filter: blur(0px);
-
-
-}
 
 
 .circle {
@@ -104,7 +86,6 @@ width: 8px;
 height: 8px;
 border-radius: 500px;
 box-shadow: 0px 0px 1px 1px #0000001a;
-/* background-color: #1f3527; */
 }
 .green{
 background: #66FF99;

@@ -1,4 +1,4 @@
-.nav {
+.nav, .nav-scrolled {
   padding: 2rem 7rem;
   display: flex;
   align-items: center;
@@ -10,15 +10,8 @@
 }
 .nav-scrolled{
   padding: 1.5rem 7rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 100;
   -webkit-backdrop-filter: blur(70px);
-backdrop-filter: blur(36px);
+  backdrop-filter: blur(36px);
   transition: all 0.5s ease;
 }
 .nav-links{
@@ -39,11 +32,7 @@ backdrop-filter: blur(36px);
   transition: all 0.5s ease;
   cursor: pointer;
 }
-.nav p:hover, .nav-scrolled p:hover {
-  background-color: rgb(205, 207, 191);
 
-  color: #0e0e0e;
-}
 .nav h3, .nav-scrolled h3 {
   font-family: "dm sans";
   font-size: 1.1rem;

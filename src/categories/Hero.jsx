@@ -32,9 +32,6 @@ export const Hero = () => {
     return (
 
         <div className='hero'>
-
-
-            <div className='cursor-background'></div>
             <div className='hero-container'>
                 <div className='hero-description'>
                     <h6>

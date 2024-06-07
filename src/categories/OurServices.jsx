@@ -22,7 +22,7 @@ export const OurServices = () => {
               {service.info}
             </div>
             <div className='services-info-list'>
-              <h3>Penetration testing includes:</h3>
+              <h3>{service.head} includes:</h3>
               <div className='s-list'>
                 {service.list.map((item, index) => (
                   <p key={index}>

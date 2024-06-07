@@ -33,5 +33,23 @@ body{
 .link{
   all: unset;
 }
+.gradient{
+  height: 20rem;
+  width: 20rem;
+  background-color: #7aac76;
+  border-radius: 500px;
+  filter: blur(100px) brightness(40%);
+  position: absolute;
+  z-index: -1;
+
+}
+.section-heading{
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: "Poppins";
+  font-size: 1.1rem;
+  color: rgb(222, 225, 222);
+}
 
 

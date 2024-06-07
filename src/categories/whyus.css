@@ -4,14 +4,7 @@
     margin-top: 5rem;
     position: relative;
 }
-.whyUs-head{
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  font-family: "Poppins";
-  font-size: 1.1rem;
-  color: rgb(222, 225, 222);
-}
+
 .section-info{
   display: grid;
   grid-template-columns: 2.5fr 1fr;
@@ -87,21 +80,14 @@
   filter: brightness(70%);
   
 }
-.gradient{
-  height: 25rem;
-  width: 25rem;
-  background-color: #7aac76;
-  border-radius: 500px;
-  filter: blur(100px) brightness(40%);
-  position: absolute;
-  z-index: -1;
-}
+
 .g-1{
   top:  10rem;
   right: 0rem;
   width: 10rem;
   overflow: hidden; /* Clip the content to fit the border-radius */
   border-radius:   500px 0 0 500px   ; 
+  opacity: 0.5;
   
 }
 .g-2{

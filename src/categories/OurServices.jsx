@@ -1,42 +1,50 @@
 import React from 'react'
 import "./ourServices.css"
+import { Minus, CaretDoubleRight } from '@phosphor-icons/react'
 import { services } from '../AllData'
-import { CaretRight } from '@phosphor-icons/react'
-
+import img23 from "../assets/images/23.png"
 export const OurServices = () => {
   return (
-    <div className='container' id='services'>
-      <div className='service-container'>
-        <h2>
-          Our Services.&nbsp;<span>Excellence in Every Step</span>
-        </h2>
-        <div className='card-container'>
-          {services.map((card) => (
-            <div className='card' key={card.id}>
-              <h3>{card.head}</h3>
-              <div className='card-description'>
-                <div id='description-array'>
-                    <div id='description-array'>
-                      {card.description.map((desc, index) => (
-                        <p key={index}>
-                          <CaretRight size={18} color="#878787" weight="duotone" />
-                          {desc}
-                        </p>
-                      ))}
-                    </div>
-                 
-
-                </div>
-                {/* <div className='learn-more'>Learn More</div> */}
-              </div>
-
-            </div>
-          ))}
-        </div>
-        <div className='blob'></div>
-        <div className='blob1'></div>
-      </div>
-
+    <div className='service-container'>
+    <div className='section-heading'>
+      <Minus size={46} color="#FFFFFF" weight="thin" />
+      Our Services
     </div>
-  )
+    <div className='services'>
+      {services.map((service, index) => (
+        <div className={`service ${index % 2 === 0 ? 'normal' : 'reverse'}`} key={service.id} id='{service.id}'>
+          <div className='services-info'>
+            <div className='services-info-head'>
+              <p>{service.id < 10 ? `0${service.id}` : service.id}</p>
+              <h5>{service.head}</h5>
+            </div>
+            <div className='services-info-descr'>
+              {service.info}
+            </div>
+            <div className='services-info-list'>
+              <h3>Penetration testing includes:</h3>
+              <div className='s-list'>
+                {service.list.map((item, index) => (
+                  <p key={index}>
+                    <CaretDoubleRight size={14} color="#e8e8e8" />
+                    {item}
+                  </p>
+                ))}
+              </div>
+            </div>
+          </div>
+          <div>
+            <img src={service.Img} alt={`Service ${service.id}`} className='section-img'/>
+          </div>
+          <div className={`gradient sg-1 ${index % 2 === 0 ? '' : 'sg-1-reverse'}`}></div>
+          <div className={`gradient sg-2 ${index % 2 === 0 ? '' : 'sg-2-reverse'}`}></div>
+        </div>
+        
+      ))}
+    </div>
+    
+    {/* gradients background */}
+   
+  </div>
+)
 }

@@ -24,7 +24,7 @@ export const Whyus = () => {
     ]
     return (
         <div className='why-us-container'>
-            <div className='whyUs-head'>
+            <div className='section-heading'>
                 <Minus size={46} color="#FFFFFF" weight="thin" />
                 About us
             </div>

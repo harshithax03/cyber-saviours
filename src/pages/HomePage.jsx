@@ -5,7 +5,6 @@ import {Whyus} from '../categories/Whyus'
 import "../index.css"
 import { MarqueeFeature } from '../components/MarqueeFeature'
 import { Contact } from '../categories/Contact'
-import { SimpleSpline } from '../categories/SimpleSpline'
 import { CyberAttacks } from '../categories/CyberAttacks'
 
 export const HomePage = () => {

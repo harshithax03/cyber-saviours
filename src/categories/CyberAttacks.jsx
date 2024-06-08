@@ -1,6 +1,5 @@
 import React from 'react'
 import "./cyberAttacks.css"
-import { BarGraph } from '../components/BarGraph'
 import { Minus } from '@phosphor-icons/react'
 import barImage from '../assets/images/bar.png';
 

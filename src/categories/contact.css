@@ -1,18 +1,47 @@
-.contact-container{
-    border: 1px solid white;
-    padding: 2rem 4rem;
+.contactUs-container{
+    padding: 7rem 7rem;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+.contact-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 30rem;
+}
+.head h2{
     font-family: "Poppins";
-    background-color: rgba(146, 146, 144, 0.092);
-    border: 1px solid rgba(81, 80, 80, 0.69);
-    -webkit-backdrop-filter: blur(200px);
-    backdrop-filter: blur(7px);
-    border-radius: 1rem;
+    font-weight: 300;
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
 }
-.contact-container p{
-    font-size: 1.3rem;
+.head p{
+    font-family: "Dm sans";
+    margin-top: 4.5rem;
+    color: rgb(117, 121, 117);
+    font-size: 1.1rem;
 }
-.contact-container p span{
-    color: rgb(135, 131, 131);    
+.social-links {
+    font-family: "poppins";
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    font-family: "Poppins";
+}
+.social-links div{
+    display: flex;
+    gap: 1rem;
+    margin-top: 0.8rem;
+}
+.address {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
 }

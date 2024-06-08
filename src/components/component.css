@@ -118,6 +118,67 @@
   font-family: "Oswald";
 }
 
+/* Form styling */
+ .contact-form{
+  font-family: "Poppins";
+ }
+ .form-group input, textarea{
+  all: unset;
+  /* border-bottom: 1px solid rgb(111, 128, 111); */
+  /* margin-left: 1rem; */
+ }
+ .contact-form button{
+  all: unset;
+  margin-top: 3rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+}
+button p{
+  border-bottom: 1px solid white;
+}
+.form-group {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+.form-group div{
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form h6{
+  font-weight: 300;
+  margin-bottom: 2.3rem;
+  font-size: 1.3rem;
+}
+.form-group div label{
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 0.7rem;
+  margin-bottom: 0.5rem;
+}
+.form-group div #message{
+  border-bottom: 1px solid rgb(238, 244, 238);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -1,24 +1,31 @@
 import React from 'react'
-
 export const Footer = () => {
     const currentDate = new Date();
     const currentYear = currentDate.getFullYear();
     return (
         <div className='footer'>
             <div className='info'>
-                <div className='address'>
-                    <h1>Cyber Saviours</h1>
-                    <p>Hyderabad, Telangana</p>
+                <div className='name'>
+                    Cyber <br/> Saviours
                 </div>
-                <div className='contact'>
-                    <p>Services</p>
-                    <p>Contact</p>
+                <div className='footer-details-info'>
+                    <h5>Services</h5>
+                    <p>Penetration Testing</p>
+                    <p>Configuration Services</p>
+                    <p>SOC Analysis</p>
+                    <p>Secure Code Review</p>
+                    <p>Secure Code Review</p>
+                    <p>Social Engineering Campaigns</p>
+                    <p>Digital Forensics</p>
                 </div>
-                <div className='social-media'>
-                    <p>info@gmail.com</p>
-                    <p>9876543210</p>
+                <div className='footer-details-info'>
+                   <h5>Get in touch</h5>
+                    <p>info@cybersaviours.com</p>
+                    <p>+91-7995474572</p>
             </div>
             </div>
+            <div className='gradient fg'></div>
+
        
            
             

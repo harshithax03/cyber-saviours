@@ -84,10 +84,9 @@
 .g-1{
   top:  10rem;
   right: 0rem;
-  width: 10rem;
   overflow: hidden; /* Clip the content to fit the border-radius */
   border-radius:   500px 0 0 500px   ; 
-  opacity: 0.5;
+  opacity: 0.3;
   
 }
 .g-2{

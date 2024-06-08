@@ -89,34 +89,57 @@
 
 /* Footer styles */
 .footer{
-  width: 100%;
-  padding: 5rem 5rem  3rem;
+  /* width: 100%; */
+  padding: 4rem 7rem;
   font-family: "Poppins";
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-  align-items: center;
   border-top: 1px solid rgb(115, 111, 111);
-  margin-bottom: 1px;
-  background-color: #0e0e0e;
-  color: rgba(227, 227, 223, 0.794);
+  position: relative;
+  
 }
 .footer .info{
-  display: flex;
-  gap: 12rem;
-  align-items: center;
-  line-height: 204%;
-  font-size: 1.2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.info .name{
+  font-size: 2rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+}
+.footer-details-info p{
+  margin-bottom: 0.2rem;
+  font-size: 0.9rem;
+  color: grey;
+}
+.footer-details-info h5{
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 0.8rem;
+}
 
+.fg{
+  right: 2rem;
+  bottom: 0rem;
 }
-.address{
-    display: flex;
-    flex-direction: column;
-    gap: 0.1rem;
-}
-.address h1{
-  font-family: "Oswald";
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Form styling */
  .contact-form{

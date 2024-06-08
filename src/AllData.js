@@ -130,7 +130,31 @@ export const services = [
 
 
 
-
+export const barData = {
+  labels : [
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025",
+    "2026",
+    "2027",
+  ], 
+  datasets : [
+    {
+      label : "Cyber Crime rate",
+      data : [0.61, 0.7, 0.86, 1.16, 2.95, 5.99, 8.44, 11.5,14.57,17.65,20.74,23.84],
+      borderColor : "#61815B" ,
+      backgroundColor : "#344831",
+      borderWidth : 1,   
+    }
+  ]
+}
 
 
 

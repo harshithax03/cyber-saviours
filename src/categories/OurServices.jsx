@@ -2,7 +2,6 @@ import React from 'react'
 import "./ourServices.css"
 import { Minus, CaretDoubleRight } from '@phosphor-icons/react'
 import { services } from '../AllData'
-import img23 from "../assets/images/23.png"
 export const OurServices = () => {
   return (
     <div className='service-container'>

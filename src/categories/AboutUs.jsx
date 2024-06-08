@@ -1,30 +1,42 @@
 import React from 'react'
 import "./aboutUs.css"
+import { BarGraph } from '../components/BarGraph'
+import { Minus } from '@phosphor-icons/react'
+import barImage from '../assets/images/bar.png';
+
 
 export const AboutUs = () => {
   return (
-    <div className='container'>
-        <div className='about-container'>
-        {/* <h2>
-          Contact Us.&nbsp;
-        </h2> */}
-        <div className='about'>
-        <div className='about-img'>
-          Contact Us
-        </div>
+    <div className='cyber-rates-container'>
+      <div className='section-heading'>
+        <Minus size={46} color="#FFFFFF" weight="thin" />
+        Security you can trust
+      </div>
 
-        <div className='about-card'>
-                <h3>Securing Your Digital Future</h3>
-                <p> We provide expert cyber security solutions to <br/>
-                    protect your business from digital threats. Our services include <br/>
-                    threat detection, vulnerability assessments,and comprehensive security <br/>
-                    consulting. Trust us to safeguard your digital assets.</p>
-               <div className='about-blob'></div>
-               <div className='about-blob1'></div>
-            </div>
+      <div className='cyber-rates-info'>
+        <div className='cyber-rates-info-head'>
+          <h3>Securing Your Future
+            Amid Rising Cyber Threats"
+          </h3>
+          <p>
+            As cyber attacks rise, robust security is more crucial
+            than ever. At <span>Cyber Saviours</span>, we use cutting-edge
+            technology to protect your data and assets from evolving
+            threats. Our proactive cybersecurity approach keeps your
+            organization ahead, offering peace of mind in a digital
+            world. We provide continuous
+            monitoring and real-time threat detection to ensure your
+            business remains secure. Partner with us for a comprehensive
+            defense strategy tailored to your unique needs.
+          </p>
+          <button>Get in touch</button>
         </div>
-      
+        <div>
+        <img src={barImage}  className='barGraph' />
         </div>
-     </div>
+      </div>
+      <div className='gradient cg'></div>
+
+    </div>
   )
 }

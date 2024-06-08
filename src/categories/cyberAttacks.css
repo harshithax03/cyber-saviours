@@ -51,4 +51,51 @@
   left: -10rem;
 }
    
-  
+#sm-screen{
+  display: none;
+} 
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 300px) and (max-width:480px) {
+.cyber-rates-container{
+  padding: 3rem 1rem;
+}
+.cyber-rates-info{
+  flex-direction: column;
+  align-items: start;
+  gap: 1rem;
+}
+.barGraph{
+  width: 18rem;
+  height: 15rem;
+}
+.cyber-rates-info-head {
+  width: 100%;
+}
+.cyber-rates-info-head h3{
+  width: 100%;
+  font-size: 1.5rem;
+  margin-top: 2.5rem;
+}
+.cyber-rates-info-head p{
+  width: 100%;
+  font-size: 1rem;
+}
+#sm-screen{
+  display: block;
+  margin: 4rem 2rem;
+}
+#lg-screen{
+  display: none;
+}
+.cyber-rates-info-head button{
+  margin-top: 0.4rem;
+}
+
+}

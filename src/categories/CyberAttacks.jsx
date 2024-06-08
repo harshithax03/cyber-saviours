@@ -17,6 +17,8 @@ export const CyberAttacks = () => {
           <h3>Securing Your Future
             Amid Rising Cyber Threats"
           </h3>
+        <img src={barImage}  className='barGraph'id='sm-screen' />
+
           <p>
             As cyber attacks rise, robust security is more crucial
             than ever. At <span>Cyber Saviours</span>, we use cutting-edge
@@ -30,9 +32,7 @@ export const CyberAttacks = () => {
           </p>
           <button>Get in touch</button>
         </div>
-        <div>
-        <img src={barImage}  className='barGraph' />
-        </div>
+        <img src={barImage}  className='barGraph'id='lg-screen' />
       </div>
       <div className='gradient cg'></div>
 

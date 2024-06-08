@@ -78,11 +78,14 @@
   align-items: center;
   justify-content: space-between;
   gap: 3.9rem;
+
 }
 .marquee{
   background-color: #060606;
   border-top: 2px  solid rgb(24, 42, 27);
   border-bottom: 2px  solid rgb(24, 42, 27);
+  width: 100%;
+  overflow: hidden;
 
 }
 
@@ -232,3 +235,9 @@ button p{
   
 
 
+@media only screen and (min-width: 300px) and (max-width:480px) {
+.marquee{
+  width: 120%;
+}
+
+}

@@ -1,11 +1,11 @@
 import React from 'react'
-import "./aboutUs.css"
+import "./cyberAttacks.css"
 import { BarGraph } from '../components/BarGraph'
 import { Minus } from '@phosphor-icons/react'
 import barImage from '../assets/images/bar.png';
 
 
-export const AboutUs = () => {
+export const CyberAttacks = () => {
   return (
     <div className='cyber-rates-container'>
       <div className='section-heading'>

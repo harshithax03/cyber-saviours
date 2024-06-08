@@ -4,9 +4,9 @@ import {OurServices} from '../categories/OurServices'
 import {Whyus} from '../categories/Whyus'
 import "../index.css"
 import { MarqueeFeature } from '../components/MarqueeFeature'
-import { AboutUs } from '../categories/AboutUs'
 import { Contact } from '../categories/Contact'
 import { SimpleSpline } from '../categories/SimpleSpline'
+import { CyberAttacks } from '../categories/CyberAttacks'
 
 export const HomePage = () => {
   return (
@@ -15,8 +15,8 @@ export const HomePage = () => {
     <MarqueeFeature />
     <Whyus/>
     <OurServices/>
-    <AboutUs />
-    {/* <Contact /> */}
+    <CyberAttacks />
+    <Contact />
 
 
     </>

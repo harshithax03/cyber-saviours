@@ -14,8 +14,8 @@ export const HomePage = () => {
     <MarqueeFeature />
     <Whyus/>
     <OurServices/>
-    <CyberAttacks />
-    <Contact />
+    {/* <CyberAttacks /> */}
+    {/* <Contact /> */}
 
 
     </>

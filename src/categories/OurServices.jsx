@@ -17,6 +17,8 @@ export const OurServices = () => {
               <p>{service.id < 10 ? `0${service.id}` : service.id}</p>
               <h5>{service.head}</h5>
             </div>
+            <img src={service.Img} alt={`Service ${service.id}`} className='section-img' id='sm-screen'/>
+
             <div className='services-info-descr'>
               {service.info}
             </div>
@@ -33,7 +35,7 @@ export const OurServices = () => {
             </div>
           </div>
           <div>
-            <img src={service.Img} alt={`Service ${service.id}`} className='section-img'/>
+            <img src={service.Img} alt={`Service ${service.id}`} className='section-img' id='lg-screen'/>
           </div>
           <div className={`gradient sg-1 ${index % 2 === 0 ? '' : 'sg-1-reverse'}`}></div>
           <div className={`gradient sg-2 ${index % 2 === 0 ? '' : 'sg-2-reverse'}`}></div>

@@ -39,7 +39,7 @@ export const Footer = () => {
                   
                 </div>
             </div>
-            <div className='gradient fg'></div>
+            {/* <div className='gradient fg'></div> */}
 
 
 

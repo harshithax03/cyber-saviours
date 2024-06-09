@@ -94,8 +94,10 @@
   /* width: 100%; */
   padding: 4rem 7rem;
   font-family: "Poppins";
-  border-top: 1px solid rgb(115, 111, 111);
+  /* border-top: 1px solid rgb(115, 111, 111); */
   position: relative;
+  background-color: rgba(82, 114, 82, 0.456);
+  color: #060606;
   
 }
 .footer .info{
@@ -105,18 +107,18 @@
 }
 .info .name{
   font-size: 2rem;
-  font-weight: 300;
+  font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 8px;
 }
 .footer-details-info p{
   margin-bottom: 0.2rem;
-  font-size: 0.9rem;
-  color: grey;
+  font-size: 1rem;
+  color: rgb(0, 0, 0);
 }
 .footer-details-info h5{
   font-size: 1rem;
-  font-weight: 500;
+  font-weight: 700;
   margin-bottom: 0.8rem;
 }
 .footer-details-info {

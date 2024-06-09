@@ -100,7 +100,8 @@ display: none;
 
 
 
-  @media only screen and (max-width: 480px) {
+@media only screen and (min-width: 300px) and (max-width:480px) {
+
     .why-us-container{
       width: auto;
       padding: 5rem 1rem;
@@ -114,7 +115,7 @@ display: none;
       width: 100%;
     }
     .descr-info p{
-      width: 100%;
+      width: 90%;
     }
     .ss-screen{
       display: block;

@@ -66,7 +66,7 @@
 
     .contactUs-container{
         flex-direction: column;
-        padding: 5rem 1rem;
+        padding: 7rem 1rem;
     }
     .contact-info{
         height: 10rem;
@@ -79,7 +79,7 @@
     
     .form{
         width: 100%;
-        margin: 1rem;
+        margin: 0rem;
     }
     #c-sm-screen{
         display: flex;

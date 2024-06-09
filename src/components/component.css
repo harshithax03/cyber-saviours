@@ -157,7 +157,7 @@
  }
  .contact-form button{
   all: unset;
-  margin-top: 3rem;
+  margin-top: 2rem;
   display: flex;
   align-items: center;
   gap: 1rem;
@@ -242,11 +242,48 @@ button p{
 .form-group{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin: 2rem 0rem;
+  gap: 0rem;
 }
 .contact-form{
-  padding: 2rem 2rem;
+  /* padding: 2rem 2rem; */
+  width: 100%;
+  padding: 2rem 0rem;
 }
+.contact-form h6{
+  font-size: 1.2rem;
+}
+.form-group div label{
+  margin-top: 1rem;
+}
+.form-group input{
+  font-size: 0.9rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .footer{
   padding: 4rem 1rem;
 }

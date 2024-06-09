@@ -58,5 +58,18 @@ html, body {
   font-size: 1.1rem;
   color: rgb(222, 225, 222);
 }
+#sm-screen{
+  display: none;
+}
 
+@media only screen and (max-width: 480px) {
+   #sm-screen{
+    display: block;
 
+  }
+   #lg-screen{
+    display: none;
+  }
+  
+
+}

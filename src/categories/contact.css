@@ -41,7 +41,50 @@
 }
 .form{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 50%;
+}
+
+
+#c-sm-screen{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 300px) and (max-width:480px) {
+
+    .contactUs-container{
+        flex-direction: column;
+        padding: 5rem 1rem;
+    }
+    .contact-info{
+        height: 10rem;
+        justify-content: space-between;
+
+    }
+    .head h2{
+        font-size: 1.8rem;
+    }
+    
+    .form{
+        width: 100%;
+        margin: 1rem;
+    }
+    #c-sm-screen{
+        display: flex;
+        font-family: "Poppins";
+        justify-content: space-between;
+        
+    }
 }

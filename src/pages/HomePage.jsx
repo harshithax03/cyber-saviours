@@ -15,7 +15,7 @@ export const HomePage = () => {
     <Whyus/>
     <OurServices/>
     <CyberAttacks />
-    {/* <Contact /> */}
+    <Contact />
 
 
     </>

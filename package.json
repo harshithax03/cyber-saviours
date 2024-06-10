@@ -10,6 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.3.3",
+    "@hookform/resolvers": "^3.6.0",
     "@phosphor-icons/react": "^2.1.5",
     "chart.js": "^4.4.3",
     "marquee": "^0.2.1",
@@ -18,9 +20,11 @@
     "react-dom": "^18.2.0",
     "react-fast-marquee": "^1.6.4",
     "react-fontawesome": "^1.7.1",
+    "react-hook-form": "^7.51.5",
     "react-router-dom": "^6.23.1",
     "react-scroll": "^1.9.0",
-    "typewriter-effect": "^2.21.0"
+    "typewriter-effect": "^2.21.0",
+    "yup": "^1.4.0"
   },
   "devDependencies": {
     "@splinetool/react-spline": "^2.2.6",

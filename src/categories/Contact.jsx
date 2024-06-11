@@ -1,6 +1,5 @@
 import React from 'react'
 import "./contact.css"
-import { Form } from '../components/Form'
 import { Envelope, WhatsappLogo } from '@phosphor-icons/react';
 import contactLogo from "../assets/images/cuate.png"
 

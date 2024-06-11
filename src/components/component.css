@@ -215,11 +215,7 @@ button p{
   flex-direction: column;
 }
 
-.contact-form h6{
-  font-weight: 300;
-  margin-bottom: 2.3rem;
-  font-size: 1.3rem;
-}
+
 .form-group div label{
   text-transform: uppercase;
   letter-spacing: 2px;

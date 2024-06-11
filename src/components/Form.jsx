@@ -22,7 +22,6 @@ export const Form = () => {
   const submitForm = (e) =>{
     console.log(e);
     emailjs.sendForm('service_phq7ijm', 'template_ruc9dbl', e.target, 'WSiLDFbtCeG7mYIU-')
-
   }
  
   

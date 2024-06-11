@@ -1,5 +1,5 @@
 .contactUs-container{
-    padding: 7rem 7rem;
+    padding: 12rem 7rem;
     display: flex;
     justify-content: space-between;
 }
@@ -15,12 +15,7 @@
     font-size: 3.5rem;
     margin-bottom: 2rem;
 }
-.head p{
-    font-family: "Dm sans";
-    margin-top: 4.5rem;
-    color: rgb(117, 121, 117);
-    font-size: 1.1rem;
-}
+
 .social-links {
     font-family: "poppins";
 }
@@ -39,18 +34,54 @@
     flex-direction: column;
     gap: 0.8rem;
 }
-.form{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-}
+
 
 
 #c-sm-screen{
     display: none;
 }
+
+
+
+.contact-link{
+    all: unset;
+    font-family: "Poppins";
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    text-decoration: underline;
+    color: rgb(83, 131, 83);
+  
+}
+.contact-links #mail{
+    color: rgb(131, 95, 95);
+}
+.contact-links{
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    width: 90%;
+    margin: 3rem 0rem;
+}
+
+.contact-img{
+    width: 30rem;
+    height: 30rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -67,6 +98,7 @@
     .contactUs-container{
         flex-direction: column;
         padding: 7rem 1rem;
+        height: 90vh;
     }
     .contact-info{
         height: 10rem;
@@ -77,7 +109,7 @@
         font-size: 1.8rem;
     }
     
-    .form{
+    .contact-details{
         width: 100%;
         margin-bottom: 2rem;
     }
@@ -86,5 +118,13 @@
         font-family: "Poppins";
         justify-content: space-between;
         
+    }
+    .contact-img{
+        display: none;
+    }
+    .contact-links{
+        align-items: start;
+        /* height: 5rem; */
+        /* flex-direction: column; */
     }
 }

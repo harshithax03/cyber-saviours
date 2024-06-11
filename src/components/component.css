@@ -70,7 +70,7 @@
 }
 .dropdown{
   position: absolute;
-  background-color: #3a493d26;
+  background-color: #bcdbbc;
   z-index: 1;
   right: 0.5rem;
   top: 2rem;
@@ -80,11 +80,18 @@
   flex-direction: column;
   gap: 1rem;
   border-radius: 20px;
-  transition: all 5s ;
-  backdrop-filter: blur(100px);
+  backdrop-filter: blur(20px); 
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid #649663;;
 
 }
-
+.dropdown p{
+  color: #060606;
+}
+.contact{
+  top: 3rem;
+  right: 0rem;
+}
 
 
 
@@ -132,7 +139,7 @@
   font-family: "Poppins";
   /* border-top: 1px solid rgb(115, 111, 111); */
   position: relative;
-  background-color: rgba(82, 114, 82, 0.456);
+  background-color: #548553;
   color: #060606;
   
 }

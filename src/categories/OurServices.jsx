@@ -4,8 +4,8 @@ import { Minus, CaretDoubleRight } from '@phosphor-icons/react'
 import { services } from '../AllData'
 export const OurServices = () => {
   return (
-    <div className='service-container'>
-    <div className='section-heading'>
+    <div className='service-container'id='services'>
+    <div className='section-heading'  >
       <Minus size={46} color="#FFFFFF" weight="thin" />
       Our Services
     </div>
@@ -37,8 +37,8 @@ export const OurServices = () => {
           <div>
             <img src={service.Img} alt={`Service ${service.id}`} className='section-img' id='lg-screen'/>
           </div>
-          <div className={`gradient sg-1 ${index % 2 === 0 ? '' : 'sg-1-reverse'}`}></div>
-          <div className={`gradient sg-2 ${index % 2 === 0 ? '' : 'sg-2-reverse'}`}></div>
+          {/* <div className={`gradient sg-1 ${index % 2 === 0 ? '' : 'sg-1-reverse'}`}></div> */}
+          {/* <div className={`gradient sg-2 ${index % 2 === 0 ? '' : 'sg-2-reverse'}`}></div> */}
         </div>
         
       ))}

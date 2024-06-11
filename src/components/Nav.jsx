@@ -1,20 +1,14 @@
 import "../components/component.css"
 import React, { useState, useEffect } from 'react';
-import { services } from "../AllData";
-// import { Link as ScrollLink } from "react-scroll";
+import { Link as ScrollLink } from "react-scroll";
 import { WhatsAppChat, MailTo } from "../categories/Contact"
 export const Nav = () => {
  
-  const [showServicesDropdown, setShowServicesDropdown] = useState(false);
   const [showContactDropdown, setShowContactDropdown] = useState(false);
 
-  const toggleServicesDropdown = () => {
-    setShowServicesDropdown(!showServicesDropdown);
-    setShowContactDropdown(false); // Close contact dropdown if open
-  };
+ 
   const toggleContactDropdown = () =>{
     setShowContactDropdown(!showContactDropdown);
-    setShowServicesDropdown(false);
   }
 
   return (
@@ -24,16 +18,16 @@ export const Nav = () => {
         <h5>Cyber services based in <br /> Hyderabad, India</h5>
       </div>
       <div className="nav-links" >
-        <div className="nav-item" onClick={toggleServicesDropdown}>
-
+        <div className="nav-item">
+        <ScrollLink
+                        to='services'  // The ID of the element you want to scroll to
+                        smooth={true}
+                        duration={100}
+                        className="link"
+                    >
         <p>Services</p>
-        {showServicesDropdown && (
-            <div className="dropdown">
-             {services.map((service) => (
-                            <p>{service.head}</p>
-                        ))}
-            </div>
-          )}
+        </ScrollLink>
+       
         </div>
         <div className="nav-item" onClick={toggleContactDropdown}>
 

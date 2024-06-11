@@ -1,5 +1,6 @@
 import "../components/component.css"
 import React, { useState, useEffect } from 'react';
+import { services } from "../AllData";
 // import { Link as ScrollLink } from "react-scroll";
 import { WhatsAppChat, MailTo } from "../categories/Contact"
 export const Nav = () => {
@@ -28,12 +29,9 @@ export const Nav = () => {
         <p>Services</p>
         {showServicesDropdown && (
             <div className="dropdown">
-              <p>Penetration Testing</p>
-              <p>Configuration Services</p>
-              <p>SOC Analysis</p>
-              <p>Secure Code Review</p>
-              <p>Social Engineering Campaigns</p>
-              <p>Digital Forensics</p>
+             {services.map((service) => (
+                            <p>{service.head}</p>
+                        ))}
             </div>
           )}
         </div>

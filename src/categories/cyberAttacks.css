@@ -36,16 +36,7 @@
   color: rgb(76, 111, 76);
   font-size: 1.2rem;
 }
-.cyber-rates-info-head button{
-  all: unset;
-  background-color: rgba(89, 111, 89, 0.387);
-  padding: 0.5rem 1.5rem;
-  border-radius: 50px;
-  font-size: 1rem;
-  font-family: "Poppins";
-  margin-top: 1rem;
 
-}
 .cg{
   bottom: 5rem;
   left: -10rem;
@@ -94,8 +85,6 @@
 #lg-screen{
   display: none;
 }
-.cyber-rates-info-head button{
-  margin-top: 0.4rem;
-}
+
 
 }

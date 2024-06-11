@@ -30,7 +30,7 @@ export const CyberAttacks = () => {
             business remains secure. Partner with us for a comprehensive
             defense strategy tailored to your unique needs.
           </p>
-          <button>Get in touch</button>
+       
         </div>
         <img src={barImage}  className='barGraph'id='lg-screen' />
       </div>

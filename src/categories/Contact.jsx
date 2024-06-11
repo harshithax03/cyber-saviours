@@ -6,7 +6,7 @@ import contactLogo from "../assets/images/cuate.png"
 
 
 
-const WhatsAppChat = ({ phoneNumber, message }) => {
+export const  WhatsAppChat = ({ phoneNumber, message }) => {
   const whatsappHref = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
 
   return (
@@ -16,7 +16,7 @@ const WhatsAppChat = ({ phoneNumber, message }) => {
   );
 };
 
-const MailTo = ({ email, subject, body }) => {
+ export const MailTo = ({ email, subject, body }) => {
   const mailtoHref = `mailto:${"info@cybersaviours.com"}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 
   return (
@@ -40,7 +40,7 @@ export const Contact = () => {
         message="Hello, I need help with your service."
       />
       <MailTo 
-        email="example@example.com" 
+        email="info@cybersaviours.com" 
         subject="Inquiry about your services" 
         body="Hello, I would like to know more about your services."
       />

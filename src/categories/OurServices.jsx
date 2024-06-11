@@ -4,8 +4,8 @@ import { Minus, CaretDoubleRight } from '@phosphor-icons/react'
 import { services } from '../AllData'
 export const OurServices = () => {
   return (
-    <div className='service-container'>
-    <div className='section-heading'  id='services'>
+    <div className='service-container'id='services'>
+    <div className='section-heading'  >
       <Minus size={46} color="#FFFFFF" weight="thin" />
       Our Services
     </div>

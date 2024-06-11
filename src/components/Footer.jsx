@@ -1,7 +1,7 @@
 import React from 'react'
+import { services } from '../AllData'
 export const Footer = () => {
-    const currentDate = new Date();
-    const currentYear = currentDate.getFullYear();
+  
     return (
         <div className='footer'>
             <div className='info'>
@@ -16,16 +16,10 @@ export const Footer = () => {
 
                     </div>
                     <div className='details-info-list'>
-                    <p>Penetration Testing</p>
-                    <p>Digital Forensics</p>
-
-                    <p>Configuration Services</p>
-                    <p>SOC Analysis</p>
-                    <p>Secure Code Review</p>
-                    <p>Secure Code Review</p>
-                    <p>Social Engineering Campaigns</p>
+                        {services.map((service) => (
+                            <p>{service.head}</p>
+                        ))}
                     </div>
-
                 </div>
                 <div className='footer-details-info'>
                     <div>
@@ -39,13 +33,6 @@ export const Footer = () => {
                   
                 </div>
             </div>
-            {/* <div className='gradient fg'></div> */}
-
-
-
-
-
-
         </div>
     )
 }

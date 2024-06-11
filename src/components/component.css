@@ -94,23 +94,6 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Nav styles end */
-
-
 /* marquee feature styles */
 .marquee-text{
   font-family: "Poppins";
@@ -131,17 +114,13 @@
 
 }
 
-
 /* Footer styles */
 .footer{
-  /* width: 100%; */
   padding: 4rem 7rem;
   font-family: "Poppins";
-  /* border-top: 1px solid rgb(115, 111, 111); */
   position: relative;
   background-color: #548553;
   color: #060606;
-  
 }
 .footer .info{
   display: grid;
@@ -175,110 +154,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Form styling */
- .contact-form{
-  font-family: "Poppins";
-  padding: 6rem 0rem;
-  position: relative;
- }
- .form-group input{
-  all: unset;
- }
- .contact-form button{
-  all: unset;
-  margin-top: 3rem;
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-
-}
-button p{
-  border-bottom: 1px solid white;
-}
-.form-group {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2rem;
-}
-.form-group div{
-  display: flex;
-  flex-direction: column;
-}
-
-
-.form-group div label{
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-size: 0.7rem;
-  margin-bottom: 0.5rem;
-}
-.form-group div #message{
-  border-bottom: 1px solid rgb(238, 244, 238);
-}
-
-
-
-.alert {
-  background-color: #bde6bc;
-  color: #1c722f;
-  padding: 10px;
-  margin-top: 10px;
-  border: 1px solid #c6f5ce;
-  border-radius: 5px;
-  position: absolute;
-  width: 100%;
-  height: 20%;
-  top: 0rem;
-}
-.alert {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: start;
-  transition: all 5s ease;
-}
-
-
-.remove{
-  background-color: #060606;
-  border-radius: 50px;
-  padding: 0.5rem 1rem;
-  position: absolute;
-  top: 2rem;
-  right: 2rem;
-}
-
-
-.contact-form p{
-  color: #1c722f;
-}
-
-
-
-
-
-
-
-
-
-
+/* responsive styles */
 
 @media only screen and (max-width: 600px)  {
   .nav-links{
@@ -303,58 +179,7 @@ button p{
   }
 
 } 
-  
-
-
 @media only screen and (min-width: 300px) and (max-width:480px) {
-
-.form-group{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 0rem;
-}
-.contact-form{
-  /* padding: 2rem 2rem; */
-  width: 100%;
-  padding: 2rem 0rem;
-}
-.contact-form h6{
-  font-size: 1.2rem;
-}
-.form-group div label{
-  margin-top: 1rem;
-}
-.form-group input{
-  font-size: 0.9rem;
-}
-.contact-form button{
-  margin-top: 3rem;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .footer{
   padding: 4rem 1rem;
 }
@@ -362,13 +187,11 @@ button p{
   display: flex;
   flex-direction: column;
   gap: 2rem;
-
 }
 .info .name{
   font-size: 1.4rem;
   letter-spacing: normal;
   align-self: start;
-
 }
 .details-info-list, .contact-info-list {
   display: grid;
@@ -377,5 +200,4 @@ button p{
 .contact-info-list{
   gap: 1rem;
 }
-
 }

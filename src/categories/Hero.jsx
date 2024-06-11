@@ -1,9 +1,6 @@
 import React from 'react'
 import { useEffect, useRef } from 'react';
 import "./hero.css"
-import Spline from '@splinetool/react-spline';
-import { ArrowRight } from '@phosphor-icons/react/dist/ssr'
-import Typewriter from 'typewriter-effect/dist/core';
 import { Link as ScrollLink } from "react-scroll";
 
 

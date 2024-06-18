@@ -1,9 +1,7 @@
 
 <h2>About the project</h2>
 
-<p>This is a minimalist e-commerce website built with React and CSS. This
-website features a modern and intuitive design, with easy-to-use navigation and a
-simple shopping experience that puts the focus on the products.</p>
+<p>Cyber Saviours is a sleek, minimalist website dedicated to cybersecurity solutions. Featuring a modern and intuitive design, the site offers easy navigation and a user-friendly experience. With clearly defined sections for services, resources, and contact information, it efficiently showcases Cyber Saviours' expertise and offerings. The design prioritizes functionality and accessibility, ensuring visitors can quickly find the information they need.</p>
 
 
 👉 Live Website: <a href='https://cybersaviours.com'>CyberSaviours official website</a>

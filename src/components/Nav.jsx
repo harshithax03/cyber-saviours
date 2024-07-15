@@ -1,7 +1,8 @@
 import "../components/component.css"
 import React, { useState, useEffect } from 'react';
 import { Link as ScrollLink } from "react-scroll";
-import { WhatsAppChat, MailTo } from "../categories/Contact"
+import { WhatsAppChat, MailTo } from '../components/ContactLinks';
+
 export const Nav = () => {
  
   const [showContactDropdown, setShowContactDropdown] = useState(false);
@@ -38,11 +39,17 @@ export const Nav = () => {
                 <WhatsAppChat 
         phoneNumber="7995474572" 
         message="Hello, I need help with your service."
+        text= 'Whatsapp'
+        className= 'contactPropLinks'
+
       />
       <MailTo 
         email="example@example.com" 
         subject="Inquiry about your services" 
         body="Hello, I would like to know more about your services."
+        text= 'Mail'
+        className= 'contactPropLinks'
+
       />
 
           </div>

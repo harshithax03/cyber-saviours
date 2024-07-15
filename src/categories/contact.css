@@ -29,6 +29,11 @@
     gap: 1rem;
     margin-top: 0.8rem;
 }
+.social-links a:link, a:visited, a:hover{
+    color: white;
+    text-decoration: none;
+    
+}
 .address {
     display: flex;
     flex-direction: column;
@@ -41,8 +46,6 @@
     display: none;
 }
 
-
-
 .contact-link{
     all: unset;
     font-family: "Poppins";
@@ -54,6 +57,10 @@
     color: rgb(83, 131, 83);
   
 }
+.contact-links div{
+    display: flex;
+    gap: 0.5rem;
+}
  #mail{
     color: rgb(131, 95, 95);
 }
@@ -64,7 +71,6 @@
     width: 90%;
     margin: 3rem 0rem;
 }
-
 .contact-img{
     width: 30rem;
     height: 30rem;

@@ -10,7 +10,7 @@ import  serviceImg6  from "./assets/images/28.png";
 export const services = [
   {
     id: 1,
-    head: `Penetration Testing Services`,
+    head: `Penetration Testing`,
     info: `Penetration testing simulates real-world cyber attacks to
           identify and address security vulnerabilities in your network,
           servers, databases, and applications.
@@ -31,7 +31,7 @@ export const services = [
   },
   {
     id: 2,
-    head: `Configuration Services`,
+    head: `Configuration `,
     info: `Configuration services ensure that your systems are set up
           correctly to prevent unauthorized access and optimize performance.
           At Cyber Saviours, our configuration services help you maintain
@@ -51,7 +51,7 @@ export const services = [
   },
   {
     id: 3,
-    head: `SOC Analysis Services`,
+    head: `SOC Analytics`,
     info: `SOC analysis services provide continuous monitoring and
           analysis of your IT environment to detect and respond to threats.
           At Cyber Saviours, our SOC analysis services utilize advanced tools
@@ -70,7 +70,7 @@ export const services = [
   },
   {
     id: 4,
-    head: `Secure Code Review Services`,
+    head: `Secure Code Reviews`,
     info: `Secure code review services help identify vulnerabilities
           in your application's source code to prevent exploitation.
           At Cyber Saviours, our secure code review services involve
@@ -120,18 +120,17 @@ export const services = [
       `Deep Fake Investigation`,
       `Data Recovery`,
       `Mobile Forensics`,
-      `Laptop Forensics`,
       `Social Media Forensics`,
       `Network Forensics`,
       'Windows Forensics',
-      'Browser Forensics',
       'Audio/Video Forensics',
       'Browser Forensics',
       'Database Forensics',
       'Email Forensics',
       'CCTV Forensics',
-      'RAM Forensics',
       'Dark web Forensics',
+      'Cloud Forensics',
+      'Disk Forensics',
 
     ],
     Img: serviceImg4,

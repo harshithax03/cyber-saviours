@@ -1,30 +1,30 @@
 import React from 'react'
-import { useEffect, useRef } from 'react';
+// import { useEffect, useRef } from 'react';
 import "./hero.css"
 import { Link as ScrollLink } from "react-scroll";
 
 
 export const Hero = () => {
-    const typewriterRef = useRef(null);
+    // const typewriterRef = useRef(null);
 
-    useEffect(() => {
-        if (typewriterRef.current) {
-            const typewriter = new Typewriter(typewriterRef.current, {
-                loop: true,
-                delay: 225,
-                deleteSpeed: 70,
-            });
+    // useEffect(() => {
+    //     if (typewriterRef.current) {
+    //         const typewriter = new Typewriter(typewriterRef.current, {
+    //             loop: true,
+    //             delay: 225,
+    //             deleteSpeed: 70,
+    //         });
 
-            typewriter
-                .typeString('Cyber Guardians')
-                .pauseFor(2000)
-                .deleteAll()
-                .typeString('Cyber Saviours')
-                .pauseFor(2000)
-                .deleteAll()
-                .start();
-        }
-    }, []);
+    //         typewriter
+    //             .typeString('Cyber Guardians')
+    //             .pauseFor(2000)
+    //             .deleteAll()
+    //             .typeString('Cyber Saviours')
+    //             .pauseFor(2000)
+    //             .deleteAll()
+    //             .start();
+    //     }
+    // }, []);
     return (
 
         <div className='hero'>

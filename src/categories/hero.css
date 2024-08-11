@@ -3,7 +3,7 @@
 .hero{
   height: 120vh;
   padding: 14rem 7rem; 
-  background-image: url("../assets/images/4.png");
+  /* background-image: url("../assets/images/hero.png"); */
   position: relative;
   background-position: center;
   background-size: cover;
@@ -37,14 +37,14 @@ font-size: 72px;
 text-align: center;
 line-height: 150%;
 font-weight: 600;
-color: #CCCCCC;
+color: #151515;
 z-index: 100;
 }
 .hero-description h6{
  font-family: "dmsans", sans-serif;
 font-size: 1rem;
 font-weight: 500;
-color: #808080;
+color: #202020;
 display: flex;
 align-items: center;
 gap: 0.9rem;

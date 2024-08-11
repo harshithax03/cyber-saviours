@@ -71,14 +71,14 @@
   width: 70%;
 }
 .section-logo{
-  background-image: url("../assets/images/logo.png");
+  background-image: url("../assets/images/logo.svg");
   background-position: center;
   background-size: contain;
   width: 25rem;
   height: 25rem;
   background-repeat: no-repeat;
   scale: 1.5;
-  filter: brightness(70%);
+  /* filter: brightness(70%); */
   
 }
 

@@ -1,0 +1,36 @@
+.navContainer{
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins';
+    
+}
+.navBar{
+    padding: 0.3rem 0.3rem;
+    margin: 1rem 1rem;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    border-radius: 50px;
+}
+.navBar #companyLogo{
+  width: 50px;
+  height: 50px;
+  margin: -0.3rem;
+  background-image: url('../../assets/images/logo.svg');
+  background-position: center;
+  background-size: cover;
+}
+.navBar #navBtn{
+    background-color: #7CBA57;
+    padding: 0.7rem;
+    border-radius: 25px;
+}
+.navBar p{
+    cursor: pointer;
+    transition: all ease-in-out 0.3s;
+}
+.navBar p:hover{
+    transform: translateY(-2px);
+}

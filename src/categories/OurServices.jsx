@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import "./ourServices.css"
 import { Minus, CaretDoubleRight } from '@phosphor-icons/react'
 import { services } from '../AllData'

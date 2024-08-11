@@ -1,15 +1,18 @@
 
 
-.hero{
-  height: 120vh;
-  padding: 14rem 7rem; 
-  /* background-image: url("../assets/images/hero.png"); */
+.heroContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* height: 100vh; */
+  padding: 6rem 8rem 8rem; 
+  background-image: url("../assets/images/Hero.png");
   position: relative;
   background-position: center;
   background-size: cover;
   z-index: 1;
 }
-.hero-description{
+.heroInfo{
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -19,76 +22,77 @@ padding: 0rem 6rem;
 
 
 }
-.grid-mask{
-height: 100vh;
-width: 100%;
-background-color: #0e0e0e; 
-mask-image: radial-gradient(ellipse at top, transparent -400%, black);
-position: absolute;
-top: 0rem;
-left: 0rem;
-z-index: -1;
-}
 
 
-.hero-description h1{
+.heroInfo h1{
  font-family: "poppins", sans-serif;
-font-size: 72px;
+font-size: 5.5rem;
 text-align: center;
 line-height: 150%;
-font-weight: 600;
+font-weight: 800;
 color: #151515;
 z-index: 100;
 }
-.hero-description h6{
- font-family: "dmsans", sans-serif;
-font-size: 1rem;
+.heroInfo h6{
+ font-family: "Poppins";
+font-size: 1.1rem;
 font-weight: 500;
 color: #202020;
 display: flex;
 align-items: center;
 gap: 0.9rem;
 }
-.hero-description p{
- font-family: "dmsans", sans-serif;
-font-size: 1rem;
+.heroInfo p{
+ font-family: "Poppins";
 font-weight: 500;
-color: #808080;
+color: #2b630c;
 text-align: center;
 line-height: 130%;
+font-size: 1.2rem;
+
 
 
 }
 
-.hero-description button{
+.heroInfo button{
 all: unset;
 font-size: 1.2rem;
 font-family: "Poppins";
-font-weight: 300;
+font-weight: 400;
 margin-top: 1rem;
-padding: 0.4rem 1rem;
+padding: 0.7rem 1.5rem;
 border-radius: 50px;
 text-align: center;
 cursor: pointer;
-color: #81f4c3;
-box-shadow: 2px 2px 1px rgb(54, 80, 54);
+background-color: var(--secondary-color);
+color: var(--primary-color);
+transition: all 0.3s ease-in-out;
 }
 
-
-
+.heroInfo button:hover{
+  background-color: var(--accent-color);
+  color: var(--secondary-color);
+  transform: translateY(-1px);
+}
+h1 span{
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  padding: 0.01rem 2rem;
+  border-radius: 500px;
+}
 
 
 
 
 
 .circle {
-width: 8px;
-height: 8px;
+width: 12px;
+height: 12px;
 border-radius: 500px;
 box-shadow: 0px 0px 1px 1px #0000001a;
 }
 .green{
-background: #66FF99;
+background: var(--accent-color);
 }
 .pulse {
 animation: pulse 2s infinite;
@@ -96,10 +100,10 @@ animation: pulse 2s infinite;
 
 @keyframes pulse {
 0% {
-  box-shadow: 0 0 0 0px rgb(71, 152, 110);
+  box-shadow: 0 0 0 0px rgb(143, 205, 138);
 }
 100% {
-  box-shadow: 0 0 0 10px rgba(182, 124, 124, 0);
+  box-shadow: 0 0 0 10px rgba(124, 182, 126, 0);
 }
 }
 

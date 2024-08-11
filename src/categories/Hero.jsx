@@ -1,7 +1,4 @@
-import React from 'react'
-// import { useEffect, useRef } from 'react';
-import "./hero.css"
-import { Link as ScrollLink } from "react-scroll";
+import "./hero.css";
 
 
 export const Hero = () => {
@@ -27,36 +24,27 @@ export const Hero = () => {
     // }, []);
     return (
 
-        <div className='hero'>
-            <div className='hero-container'>
-                <div className='hero-description'>
-                    <h6>
+        <div className='heroContainer'>
+            <div className='heroInfo'>
+                <h6>
                     <div className='circle pulse green'></div>
-                     Available for work
-                    </h6>
-                    <h1>
-                    We Are the Shield for Your Digital Assets
-                    </h1>
-                    <p>
+                    Available for work
+                </h6>
+                <h1>
+                    We Are the <span>Shield</span> for Your Digital Assets
+                </h1>
+                <p>
                     Need a security audit, real-time threat analysis,
-                     or a comprehensive security plan?<br/> We design and
-                      implement your cybersecurity solutions from start to finish.
-                    </p>
-                    <button>Get in touch</button>
-                    <ScrollLink
-                        to="services"
-                        smooth={true}
-                        duration={100}
-                        className="link"
-                    >
-
-                    </ScrollLink>
-                </div>
-
+                    or a comprehensive security plan?<br /> We design and
+                    implement your cybersecurity solutions from start to finish.
+                </p>
+                <button>Learn More</button>
+                
             </div>
 
-
         </div>
+
+
 
     )
 }

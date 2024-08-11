@@ -1,23 +1,38 @@
 import '../navBar/nav.css'
 // import { Logo } from '../../assets/images/logo.svg'
-// import { useState } from 'react';
+import { useState } from 'react';
+import { services } from '../../AllData';
 // import { Link as ScrollLink } from "react-scroll";
 // import { WhatsAppChat, MailTo } from '../components/ContactLinks';
 
 export const Nav = () => {
  
-  // const [showContactDropdown, setShowContactDropdown] = useState(false);
+  const [showContactDropdown, setShowContactDropdown] = useState(false);
 
  
-  // const toggleContactDropdown = () =>{
-  //   setShowContactDropdown(!showContactDropdown);
-  // }
+  const toggleContactDropdown = () =>{
+    setShowContactDropdown(!showContactDropdown);
+    window.onclick
+  }
 
   return (
     <div className='navContainer'>
    <div className='navBar'>
       <div id='companyLogo'> </div>
-      <p>Services</p>
+      <div onClick={toggleContactDropdown}>
+        <p>Services</p>
+        {showContactDropdown && (
+          <div className='dropDown'>
+           {services.map((service, index) => (
+            <p key={index}
+              className='navServiceList'>
+              {service.head}</p>
+              
+           ))}
+          
+          </div>
+        )}
+      </div>
       <p>AboutUs</p>
       <p>WorkShops</p>
       <p id='navBtn'>Get In Touch</p>

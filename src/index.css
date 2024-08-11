@@ -5,9 +5,10 @@
 
 :root{
   --accent-color : #A7BEAE;
-  --primary-color : #FFFFFF;
+  --primary-color : #FBF8F1;
   --secondary-color: #1B1B1B;
-  --primary-font : "Poppins"
+  --primary-font : "Poppins";
+  --accent-color : #7CBA57
 }
 * {
   margin: 0;

@@ -1,9 +1,8 @@
-import React from 'react'
 import "./contact.css"
 import contactLogo from "../assets/images/cuate.png"
 import { Envelope, WhatsappLogo } from '@phosphor-icons/react';
 
-import { WhatsAppChat, MailTo } from '../components/ContactLinks';
+import { WhatsAppChat, MailTo } from '../../components/ContactLinks';
 
 
 

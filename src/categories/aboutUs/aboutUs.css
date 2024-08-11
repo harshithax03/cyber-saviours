@@ -1,25 +1,30 @@
 
-.why-us-container{
-    padding: 7rem 7rem ; 
-    margin-top: 5rem;
-    position: relative;
+.aboutContainer{
+    padding: 4rem 7rem ; 
+    margin-top: 3rem;
 }
-
-.section-info{
+.sectionHead{
+  display: flex;
+  align-items: center;
+  color: var(--secondary-color);
+  font-size: 1.1rem;
+  font-family: var(--primary-font);
+}
+.sectionInfo{
   display: grid;
   grid-template-columns: 2.5fr 1fr;
   justify-content: space-between;
   align-items: center;
 }
-.section-description {
+.sectionText {
   align-self: self-start;
 }
-.section-description h3{
+.sectionText h3{
   font-family: "Poppins";
-  font-weight: 400;
+  font-weight: 700;
   font-size: 2.4rem;
-  width: 70%;
-  margin-top: 2.5rem;
+  width: 80%;
+  margin-top: 2rem;
 }
 .description-container{
   margin-top: 2rem;
@@ -27,48 +32,12 @@
   gap: 1rem;
   align-items: center;
 }
-.descr-icons{
-  display: flex;
-  flex-direction: column;
-  gap: 4.5rem;
-}
-.descr-icons svg{
-  background-color: #2D2D2D;
-  border-radius: 500px;
-  padding: 0.4rem;
-  text-align: center;
-  z-index: 100;
-}
-.descr-icons .svg{
-  position: relative;
-}
-.descr-icons .vertical{
-  border-left: 2px solid rgb(249, 249, 249);
-  height: 100px;
-  position: absolute;
-  left: 1rem;
-  z-index: -1;
-  top: 1rem;
-  
-}
-
-.descr-info{
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-}
-.descr-info h6{
-  font-family: "Poppins";
-  font-weight: 500;
-  color: #548553;
-  font-size: 1.2rem;
-}
 .descr-info p{
   font-family: "Dm sans";
-  font-size: 1rem;
-  color: grey;
-  margin-top: 0.5rem;
-  width: 70%;
+  font-size: 1.2rem;
+  color: rgb(77, 77, 77);
+  margin-top: 0.2rem;
+  width: 80%;
 }
 .section-logo{
   background-image: url("../assets/images/logo.svg");
@@ -77,23 +46,9 @@
   width: 25rem;
   height: 25rem;
   background-repeat: no-repeat;
-  scale: 1.5;
-  /* filter: brightness(70%); */
-  
+  scale: 1.5;  
 }
 
-.g-1{
-  top:  10rem;
-  right: 0rem;
-  overflow: hidden; /* Clip the content to fit the border-radius */
-  border-radius:   500px 0 0 500px   ; 
-  opacity: 0.3;
-  
-}
-.g-2{
-  left: -5rem;
-  bottom: 8rem;
-}
 .ss-screen{
 display: none;
 }

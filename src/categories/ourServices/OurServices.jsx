@@ -1,7 +1,7 @@
 // import React from 'react'
 import "./ourServices.css"
 import { Minus, CaretDoubleRight } from '@phosphor-icons/react'
-import { services } from '../AllData'
+import { services } from '../../AllData'
 export const OurServices = () => {
   return (
     <div className='service-container'id='services'>

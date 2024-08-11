@@ -16,7 +16,6 @@
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
-
 }
 .marquee{
   background-color: var(--secondary-color);

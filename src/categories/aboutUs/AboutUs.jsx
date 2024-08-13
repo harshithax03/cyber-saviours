@@ -43,7 +43,7 @@ export const AboutUs = () => {
                 <div className='section-logo lg-screen'></div>
             </div>
 
-
+        <div className="mesh abPosition"></div>
         </div>
     )
 }

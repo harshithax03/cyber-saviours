@@ -19,6 +19,7 @@
 body{
   color: var(--secondary-color);
   background-color : var(--primary-color);
+  font-family: var(--primary-font);
 
 
 }
@@ -67,6 +68,14 @@ html, body {
 }
 #sm-screen{
   display: none;
+}
+.mesh{
+  width: 570px;
+  height: 570px;
+  background-color: #7CBA57;
+  border-radius: 500px;
+  filter: blur(150px);
+  z-index: -1;
 }
 
 @media only screen and (max-width: 480px) {

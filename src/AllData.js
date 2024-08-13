@@ -4,9 +4,49 @@ import  serviceImg3  from "./assets/images/25.png";
 import  serviceImg4  from "./assets/images/26.png";
 import  serviceImg5  from "./assets/images/27.png";
 import  serviceImg6  from "./assets/images/28.png";
+import  serviceImg7  from "./assets/images/2.png";
+import  serviceImg8  from "./assets/images/1.png";
+import  serviceImg9  from "./assets/images/3.png";
 
 
-
+export const categories = [
+  {
+    icon : serviceImg8,
+    id: 1,
+    title : 'Cyber Security',
+    description : 'Cybersecurity at Cyber Saviours focuses on protecting your systems, networks, and data from digital threats. We offer solutions like threat detection, incident response, and proactive defenses to keep your organization secure and resilient against cyber attacks',
+    services: [
+      'Penetration Testing',
+      'Vulnerability Assessement',
+      'Cloud Security',
+      'Strategic Consulting',
+    ]
+  },
+  {
+    icon : serviceImg7,
+    id: 1,
+    title : 'Digital Forensics',
+    description : 'Digital Forensics at Cyber Saviours involves investigating and analyzing digital incidents to uncover evidence and understand breaches. Our experts use advanced techniques to recover data and provide insights into how breaches occurred, helping you strengthen your security',
+    services: [
+      'Mobile Forensics',
+      'Computer Forensics',
+      'Open Source Intelligence',
+      'Wearable Forensics',
+    ]
+  },
+  {
+    icon : serviceImg9,
+    id: 1,
+    title : 'Cyber Security',
+    description : 'Corporate Consulting at Cyber Saviours helps businesses manage cybersecurity, risk, and compliance. We offer strategic advice to optimize security operations, align with regulations, and protect your critical assets, ensuring your organization’s resilience',
+    services: [
+      'Governance Risk',
+      'Strategic consulting',
+      'Regulatory compilance',
+      'Cyber insurance assessment',
+    ]
+  },
+]
 export const services = [
   {
     id: 1,
@@ -135,6 +175,7 @@ export const services = [
     ],
     Img: serviceImg4,
   },
+
 ];
 
 

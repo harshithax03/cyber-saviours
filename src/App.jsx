@@ -4,8 +4,8 @@ import { Footer } from "./components/Footer";
 
 import './App.css'
 import { HomePage } from "./pages/HomePage";
-import { OurServices } from "./categories/OurServices";
-import { Contact } from "./categories/Contact";
+import { OurServices } from "./categories/ourServices/OurServices";
+import { Contact } from "./categories/contactUs/Contact";
 
 function App() {
 

@@ -1,51 +1,43 @@
 // import React from 'react'
+import {ShieldCheck } from "@phosphor-icons/react"
 import "./ourServices.css"
-import { Minus, CaretDoubleRight } from '@phosphor-icons/react'
-import { services } from '../../AllData'
+import { Minus } from '@phosphor-icons/react'
+import { categories } from '../../AllData'
 export const OurServices = () => {
+  const headInfo = `Enchance and secure your business with our professional services.
+                    We offer comprehensive Cyber Security, Digital Forensics and expert
+                    consultancy services to support your success `
   return (
-    <div className='service-container'id='services'>
-    <div className='section-heading'  >
-      <Minus size={46} color="#FFFFFF" weight="thin" />
-      Our Services
-    </div>
-    <div className='services'>
-      {services.map((service, index) => (
-        <div className={`service ${index % 2 === 0 ? 'normal' : 'reverse'}`} key={service.id} id='{service.id}'>
-          <div className='services-info'>
-            <div className='services-info-head'>
-              <p>{service.id < 10 ? `0${service.id}` : service.id}</p>
-              <h5>{service.head}</h5>
-            </div>
-            <img src={service.Img} alt={`Service ${service.id}`} className='section-img' id='sm-screen'/>
-
-            <div className='services-info-descr'>
-              {service.info}
-            </div>
-            <div className='services-info-list'>
-              <h3>{service.head} includes:</h3>
-              <div className='s-list'>
-                {service.list.map((item, index) => (
-                  <p key={index}>
-                    <CaretDoubleRight size={14} color="#e8e8e8" />
-                    {item}
-                  </p>
-                ))}
-              </div>
-            </div>
-          </div>
-          <div>
-            <img src={service.Img} alt={`Service ${service.id}`} className='section-img' id='lg-screen'/>
-          </div>
-          {/* <div className={`gradient sg-1 ${index % 2 === 0 ? '' : 'sg-1-reverse'}`}></div> */}
-          {/* <div className={`gradient sg-2 ${index % 2 === 0 ? '' : 'sg-2-reverse'}`}></div> */}
+    <div className='serviceContainer' id='services'>
+      <div className='serviceHead'  >
+        <div id="head">
+          <Minus size={46} color="#1F1F1F" weight="thin" />
+          Our Services
         </div>
-        
-      ))}
+        <p>{headInfo}</p>
+      </div>
+      <div className='serviceCategories'>
+        {categories.map((service, index) => (
+          <div key={index} className="categoriesCard">
+            <img src={service.icon} width={55}/>
+            <h3>{service.title}</h3>
+            <p>{service.description}</p>
+            <div>{service.services.map((li, index)=>(
+              <div key={index} id="serviceList">
+                <ShieldCheck  size={24} color='#378a04'weight="fill" />
+                {li}</div>
+            ))}</div>
+            <button>Learn More</button>
+
+          </div>
+
+
+        ))}
+
+      </div>
+
+      {/* gradients background */}
+
     </div>
-    
-    {/* gradients background */}
-   
-  </div>
-)
+  )
 }

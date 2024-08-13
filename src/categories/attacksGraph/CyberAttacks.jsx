@@ -1,7 +1,6 @@
-import React from 'react'
 import "./cyberAttacks.css"
 import { Minus } from '@phosphor-icons/react'
-import barImage from '../assets/images/bar.png';
+import barImage from '../../assets/images/bar.png';
 
 
 export const CyberAttacks = () => {
@@ -15,7 +14,7 @@ export const CyberAttacks = () => {
       <div className='cyber-rates-info'>
         <div className='cyber-rates-info-head'>
           <h3>Securing Your Future
-            Amid Rising Cyber Threats"
+            Amid Rising Cyber Threats
           </h3>
         <img src={barImage}  className='barGraph'id='sm-screen' />
 
